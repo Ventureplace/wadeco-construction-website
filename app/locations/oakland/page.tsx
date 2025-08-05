@@ -321,6 +321,41 @@ export default function OaklandConcretePage() {
         </div>
       </section>
 
+      {/* Oakland Services */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">Concrete Services in Oakland</h2>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+              Specialized concrete construction for Oakland&apos;s unique challenges including seismic safety, hillside construction, and historic preservation.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { name: "Seismic Retrofitting", slug: "seismic-retrofitting", icon: "⚡", description: "Critical earthquake safety for Oakland properties" },
+              { name: "Concrete Driveways", slug: "concrete-driveways", icon: "🚗", description: "Durable driveways for Oakland neighborhoods" },
+              { name: "Retaining Walls", slug: "retaining-walls", icon: "🏔️", description: "Hillside solutions for Oakland Hills" },
+              { name: "Pool Decks & Patios", slug: "pool-decks-patios", icon: "🏊", description: "Outdoor living spaces" },
+              { name: "Emergency Repair", slug: "emergency-repair", icon: "🚨", description: "24/7 concrete emergency response" },
+              { name: "Basement Floors", slug: "basement-floors", icon: "🏠", description: "Foundation and basement concrete" }
+            ].map((service, index) => (
+              <Link key={index} href={`/services/${service.slug}`} className="group">
+                <Card className="border-0 shadow-md hover:shadow-lg transition-shadow group-hover:border-blue-200 h-full">
+                  <CardContent className="p-6">
+                    <div className="text-3xl mb-3">{service.icon}</div>
+                    <h3 className="text-lg font-semibold text-slate-800 group-hover:text-blue-600 transition-colors mb-2">{service.name}</h3>
+                    <p className="text-sm text-slate-600">{service.description}</p>
+                    <div className="mt-3 text-blue-600 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                      Learn More →
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-blue-600">
         <div className="container mx-auto px-4 text-center">

@@ -321,6 +321,78 @@ export default function BerkeleyConcretePage() {
         </div>
       </section>
 
+      {/* Popular Berkeley Services */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">Most Requested Services in Berkeley</h2>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+              Berkeley&apos;s unique requirements for sustainable construction, historic preservation, and environmental compliance.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              { 
+                name: "Historic Preservation Concrete", 
+                slug: "stamped-concrete", 
+                icon: "🏗️", 
+                description: "Craftsman & Tudor Revival compatible installations",
+                demand: "High demand in North Berkeley"
+              },
+              { 
+                name: "Sustainable Concrete Solutions", 
+                slug: "concrete-driveways", 
+                icon: "🌱", 
+                description: "Recycled materials & pervious concrete systems",
+                demand: "Required by Berkeley Green Building"
+              },
+              { 
+                name: "Seismic Safety Upgrades", 
+                slug: "seismic-retrofitting", 
+                icon: "⚡", 
+                description: "Mandatory retrofitting for Berkeley properties",
+                demand: "Critical for Berkeley Hills"
+              },
+              { 
+                name: "Hillside Retaining Walls", 
+                slug: "retaining-walls", 
+                icon: "🏔️", 
+                description: "Engineered solutions for steep Berkeley terrain",
+                demand: "Essential in Panoramic Hill"
+              },
+              { 
+                name: "UC Campus Area Concrete", 
+                slug: "pool-decks-patios", 
+                icon: "🏫", 
+                description: "High-traffic, low-maintenance installations",
+                demand: "Popular near Telegraph Ave"
+              },
+              { 
+                name: "Berkeley Marina Projects", 
+                slug: "specialized-services", 
+                icon: "⚓", 
+                description: "Salt-resistant concrete for waterfront properties",
+                demand: "Specialized marine applications"
+              }
+            ].map((service, index) => (
+              <Link key={index} href={`/services/${service.slug}`} className="group">
+                <Card className="border-0 shadow-md hover:shadow-lg transition-all duration-300 group-hover:border-green-500 h-full">
+                  <CardContent className="p-6">
+                    <div className="text-3xl mb-3">{service.icon}</div>
+                    <h3 className="text-lg font-semibold text-slate-800 group-hover:text-green-600 transition-colors mb-2">{service.name}</h3>
+                    <p className="text-sm text-slate-600 mb-2">{service.description}</p>
+                    <p className="text-xs text-green-600 font-medium mb-3">{service.demand}</p>
+                    <div className="text-green-600 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                      View Service Details →
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-green-600">
         <div className="container mx-auto px-4 text-center">

@@ -231,6 +231,59 @@ export default function PoolDecksPatiosPage() {
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="py-16 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">Complete Your Outdoor Living Space</h2>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+              Enhance your pool deck and patio with complementary concrete services for a cohesive outdoor environment.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { 
+                name: "Concrete Driveways", 
+                slug: "concrete-driveways", 
+                description: "Match your outdoor space with a beautiful concrete driveway",
+                popular: "Popular in Pleasanton & Dublin"
+              },
+              { 
+                name: "Retaining Walls", 
+                slug: "retaining-walls", 
+                description: "Create levels and privacy for your patio area",
+                popular: "Essential in Oakland Hills"
+              },
+              { 
+                name: "Outdoor Kitchens", 
+                slug: "outdoor-kitchens", 
+                description: "Complete your entertainment area with concrete counters",
+                popular: "Trending in San Jose"
+              },
+              { 
+                name: "Stamped Concrete", 
+                slug: "stamped-concrete", 
+                description: "Add decorative patterns to complement your pool deck",
+                popular: "Loved in Fremont & Livermore"
+              }
+            ].map((service, index) => (
+              <Link key={index} href={`/services/${service.slug}`} className="group">
+                <Card className="border-0 shadow-md hover:shadow-lg transition-all duration-300 group-hover:border-blue-200 h-full">
+                  <CardContent className="p-6">
+                    <h3 className="text-lg font-semibold text-slate-800 group-hover:text-blue-600 transition-colors mb-3">{service.name}</h3>
+                    <p className="text-sm text-slate-600 mb-3">{service.description}</p>
+                    <p className="text-xs text-blue-500 font-medium">{service.popular}</p>
+                    <div className="mt-3 text-blue-600 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                      Learn More →
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-blue-600">
         <div className="container mx-auto px-4 text-center">

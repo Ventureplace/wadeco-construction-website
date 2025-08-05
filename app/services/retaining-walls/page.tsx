@@ -51,7 +51,7 @@ export default function RetainingWallsPage() {
                 <span className="text-blue-600"> Bay Area Engineering</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Engineered concrete retaining walls designed for Bay Area&apos;s unique geological challenges. From hillside stabilization in Oakland and Berkeley to landscape walls in Pleasanton and Dublin, we provide structural solutions that combine safety, durability, and aesthetic appeal.
+                Engineered concrete retaining walls designed for Bay Area&apos;s unique geological challenges. From hillside stabilization in <Link href="/locations/oakland" className="text-blue-600 hover:text-blue-800 underline">Oakland</Link> and <Link href="/locations/berkeley" className="text-blue-600 hover:text-blue-800 underline">Berkeley</Link> to landscape walls in <Link href="/locations/pleasanton" className="text-blue-600 hover:text-blue-800 underline">Pleasanton</Link> and <Link href="/locations/dublin" className="text-blue-600 hover:text-blue-800 underline">Dublin</Link>, we provide structural solutions that combine safety, durability, and aesthetic appeal.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 

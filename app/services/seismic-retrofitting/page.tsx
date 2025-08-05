@@ -264,6 +264,42 @@ export default function SeismicRetrofittingPage() {
         </div>
       </section>
 
+      {/* Service Areas */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">Seismic Retrofitting Throughout the Bay Area</h2>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+              Critical earthquake safety upgrades for properties near active fault systems. Local expertise in Bay Area seismic requirements and building codes.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { name: "Oakland", slug: "oakland", region: "Hayward Fault" },
+              { name: "Berkeley", slug: "berkeley", region: "Hayward Fault" },
+              { name: "Fremont", slug: "fremont", region: "Multiple Faults" },
+              { name: "Pleasanton", slug: "pleasanton", region: "Calaveras Fault" },
+              { name: "Dublin", slug: "dublin", region: "Seismic Zone" },
+              { name: "Livermore", slug: "livermore", region: "Seismic Zone" },
+              { name: "San Jose", slug: "san-jose", region: "San Andreas" },
+              { name: "Hayward", slug: "hayward", region: "Hayward Fault" }
+            ].map((city, index) => (
+              <Link key={index} href={`/locations/${city.slug}`} className="group">
+                <Card className="border-0 shadow-md hover:shadow-lg transition-shadow group-hover:border-red-200">
+                  <CardContent className="p-6 text-center">
+                    <div className="text-lg font-semibold text-slate-800 group-hover:text-red-600 transition-colors">{city.name}</div>
+                    <div className="text-sm text-slate-500">{city.region}</div>
+                    <div className="mt-2 text-red-600 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                      Seismic Services →
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-red-600">
         <div className="container mx-auto px-4 text-center">

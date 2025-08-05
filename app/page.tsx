@@ -23,6 +23,7 @@ import {
   CheckCircle,
 } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function ConcretePage() {
   const schemaMarkup = {
@@ -31,7 +32,7 @@ export default function ConcretePage() {
     "name": "Wade & Co. Construction",
     "alternateName": "Wade Concrete Co",
     "description": "Professional concrete contractors serving Bay Area with stamped concrete, driveways, patios, pool decks, retaining walls, seismic retrofitting, RV pads, outdoor kitchens, basement floors, and foundation work.",
-    "url": "https://wadecoconstruction.com",
+    "url": "https://wadeconcrete.org",
     "telephone": "(925) 503-3200",
     "email": "wadeconcreteco@gmail.com",
     "foundingDate": "2008",
@@ -136,7 +137,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/stamped-concrete"
+              "serviceUrl": "https://wadeconcrete.org/services/stamped-concrete"
             },
             "provider": {
               "@type": "Organization",
@@ -155,7 +156,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/concrete-driveways"
+              "serviceUrl": "https://wadeconcrete.org/services/concrete-driveways"
             },
             "provider": {
               "@type": "Organization", 
@@ -174,7 +175,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/retaining-walls"
+              "serviceUrl": "https://wadeconcrete.org/services/retaining-walls"
             },
             "provider": {
               "@type": "Organization",
@@ -193,7 +194,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/seismic-retrofitting"
+              "serviceUrl": "https://wadeconcrete.org/services/seismic-retrofitting"
             },
             "provider": {
               "@type": "Organization",
@@ -212,7 +213,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/pool-decks"
+              "serviceUrl": "https://wadeconcrete.org/services/pool-decks"
             },
             "provider": {
               "@type": "Organization",
@@ -231,7 +232,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/outdoor-kitchens"
+              "serviceUrl": "https://wadeconcrete.org/services/outdoor-kitchens"
             },
             "provider": {
               "@type": "Organization",
@@ -250,7 +251,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/rv-pads"
+              "serviceUrl": "https://wadeconcrete.org/services/rv-pads"
             },
             "provider": {
               "@type": "Organization",
@@ -269,7 +270,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/concrete-steps"
+              "serviceUrl": "https://wadeconcrete.org/services/concrete-steps"
             },
             "provider": {
               "@type": "Organization",
@@ -288,7 +289,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/sidewalks-curbing"
+              "serviceUrl": "https://wadeconcrete.org/services/sidewalks-curbing"
             },
             "provider": {
               "@type": "Organization",
@@ -307,7 +308,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/concrete-pads"
+              "serviceUrl": "https://wadeconcrete.org/services/concrete-pads"
             },
             "provider": {
               "@type": "Organization",
@@ -326,7 +327,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/site-preparation"
+              "serviceUrl": "https://wadeconcrete.org/services/site-preparation"
             },
             "provider": {
               "@type": "Organization",
@@ -345,7 +346,7 @@ export default function ConcretePage() {
             "areaServed": ["Oakland, CA", "Berkeley, CA", "Fremont, CA", "Pleasanton, CA", "Dublin, CA", "Livermore, CA", "San Jose, CA", "Hayward, CA"],
             "availableChannel": {
               "@type": "ServiceChannel",
-              "serviceUrl": "https://wadecoconstruction.com/services/emergency-repair"
+              "serviceUrl": "https://wadeconcrete.org/services/emergency-repair"
             },
             "provider": {
               "@type": "Organization",
@@ -451,11 +452,11 @@ export default function ConcretePage() {
     "priceRange": "$$",
     "isAccessibleForFree": false,
     "hasMap": "https://maps.google.com/?q=Bay+Area+CA",
-    "logo": "https://wadecoconstruction.com/logo.png",
+    "logo": "https://wadeconcrete.org/logo.png",
     "image": [
-      "https://wadecoconstruction.com/hero-concrete.jpg",
-      "https://wadecoconstruction.com/construction-work.jpg",
-      "https://wadecoconstruction.com/concrete-worker.jpg"
+      "https://wadeconcrete.org/hero-concrete.jpg",
+      "https://wadeconcrete.org/construction-work.jpg",
+      "https://wadeconcrete.org/concrete-worker.jpg"
     ],
     "sameAs": [
       "https://www.facebook.com/wadecoconstruction",
@@ -574,16 +575,86 @@ export default function ConcretePage() {
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-6">
-              <div className="flex items-center text-slate-700">
-                <Phone className="w-4 h-4 mr-2" />
-                <span className="font-semibold">(925) 503-3200</span>
+              <nav className="flex items-center space-x-6">
+                <div className="relative group">
+                  <button className="text-slate-700 hover:text-blue-600 font-medium flex items-center">
+                    Services
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                    <div className="p-2">
+                      <Link href="/services/concrete-driveways" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Concrete Driveways
+                      </Link>
+                      <Link href="/services/pool-decks-patios" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Pool Decks & Patios
+                      </Link>
+                      <Link href="/services/retaining-walls" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Retaining Walls
+                      </Link>
+                      <Link href="/services/seismic-retrofitting" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Seismic Retrofitting
+                      </Link>
+                      <Link href="/services/stamped-concrete" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Stamped Concrete
+                      </Link>
+                      <Link href="/services/basement-floors" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Basement Floors
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative group">
+                  <button className="text-slate-700 hover:text-blue-600 font-medium flex items-center">
+                    Locations
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                    <div className="p-2">
+                      <Link href="/locations/oakland" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Oakland
+                      </Link>
+                      <Link href="/locations/berkeley" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Berkeley
+                      </Link>
+                      <Link href="/locations/fremont" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Fremont
+                      </Link>
+                      <Link href="/locations/pleasanton" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Pleasanton
+                      </Link>
+                      <Link href="/locations/dublin" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Dublin
+                      </Link>
+                      <Link href="/locations/livermore" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Livermore
+                      </Link>
+                      <Link href="/locations/san-jose" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        San Jose
+                      </Link>
+                      <Link href="/locations/hayward" className="block px-3 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded">
+                        Hayward
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <div className="flex items-center space-x-6">
+                <div className="flex items-center text-slate-700">
+                  <Phone className="w-4 h-4 mr-2" />
+                  <span className="font-semibold">(925) 503-3200</span>
+                </div>
+                <Button 
+                  className="bg-blue-600 hover:bg-blue-700"
+                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                >
+                  Schedule Quote
+                </Button>
               </div>
-              <Button 
-                className="bg-blue-600 hover:bg-blue-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
-              >
-                Schedule Quote
-              </Button>
             </div>
           </div>
         </div>
@@ -600,7 +671,7 @@ export default function ConcretePage() {
                   <span className="text-blue-600"> Concrete Specialists</span>
                 </h1>
                 <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-                  Professional concrete contractors serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, and San Jose. Specialized in stamped concrete driveways, decorative concrete patios, retaining walls, seismic retrofitting, RV pads, outdoor kitchen counters, and pool deck installations with 25+ years of Bay Area excellence.
+                  Professional concrete contractors serving <Link href="/locations/oakland" className="text-blue-600 hover:text-blue-800 underline font-semibold">Oakland</Link>, <Link href="/locations/berkeley" className="text-blue-600 hover:text-blue-800 underline font-semibold">Berkeley</Link>, <Link href="/locations/fremont" className="text-blue-600 hover:text-blue-800 underline font-semibold">Fremont</Link>, <Link href="/locations/pleasanton" className="text-blue-600 hover:text-blue-800 underline font-semibold">Pleasanton</Link>, <Link href="/locations/dublin" className="text-blue-600 hover:text-blue-800 underline font-semibold">Dublin</Link>, <Link href="/locations/livermore" className="text-blue-600 hover:text-blue-800 underline font-semibold">Livermore</Link>, and <Link href="/locations/san-jose" className="text-blue-600 hover:text-blue-800 underline font-semibold">San Jose</Link>. Specialized in stamped concrete driveways, decorative concrete patios, retaining walls, seismic retrofitting, RV pads, outdoor kitchen counters, and pool deck installations with 25+ years of Bay Area excellence.
                 </p>
               </div>
 
@@ -671,6 +742,70 @@ export default function ConcretePage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TESTING - City Pages Access */}
+      <section className="py-8 bg-yellow-400">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold text-slate-800 mb-4">🚀 TEST THE CITY PAGES - CLICK ANY CITY BELOW 🚀</h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              {[
+                "oakland", "berkeley", "fremont", "pleasanton", 
+                "dublin", "livermore", "san-jose", "hayward"
+              ].map((city) => (
+                <Link key={city} href={`/locations/${city}`} className="bg-slate-800 text-white px-6 py-3 rounded-lg hover:bg-slate-700 transition-colors font-bold">
+                  TEST {city.toUpperCase()}
+                </Link>
+              ))}
+            </div>
+            <p className="text-slate-800 mt-4 font-semibold">
+              ↑ These should take you to individual city pages with 1,200+ words of local content
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* City Pages - Prominent Location Access */}
+      <section className="py-16 bg-blue-600">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Serving Cities Throughout the Bay Area</h2>
+            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+              Click any city below to see specialized services, local expertise, and neighborhood-specific solutions.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { name: "Oakland", slug: "oakland", region: "East Bay", color: "bg-orange-500" },
+              { name: "Berkeley", slug: "berkeley", region: "East Bay", color: "bg-green-500" },
+              { name: "Fremont", slug: "fremont", region: "East Bay", color: "bg-purple-500" },
+              { name: "Pleasanton", slug: "pleasanton", region: "Tri-Valley", color: "bg-pink-500" },
+              { name: "Dublin", slug: "dublin", region: "Tri-Valley", color: "bg-blue-500" },
+              { name: "Livermore", slug: "livermore", region: "Tri-Valley", color: "bg-purple-600" },
+              { name: "San Jose", slug: "san-jose", region: "Peninsula", color: "bg-orange-600" },
+              { name: "Hayward", slug: "hayward", region: "East Bay", color: "bg-red-500" }
+            ].map((city, index) => (
+              <Link key={index} href={`/locations/${city.slug}`} className="group">
+                <div className="bg-white rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
+                  <div className={`w-12 h-12 ${city.color} rounded-full mx-auto mb-3 flex items-center justify-center`}>
+                    <MapPin className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">{city.name}</h3>
+                  <p className="text-sm text-slate-500">{city.region}</p>
+                  <div className="mt-3 text-blue-600 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                    View Local Services →
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <p className="text-blue-100 text-lg">
+              📍 Each city page includes local expertise, neighborhood specialties, and area-specific concrete solutions
+            </p>
           </div>
         </div>
       </section>
@@ -783,14 +918,21 @@ export default function ConcretePage() {
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
-                {["Oakland", "Berkeley", "Fremont", "Pleasanton", "Dublin", "Livermore", "San Jose", "Hayward"].map(
-                  (city, index) => (
-                    <div key={index} className="flex items-center space-x-2">
-                      <CheckCircle className="w-5 h-5 text-green-600" />
-                      <span className="text-slate-700">{city}</span>
-                    </div>
-                  ),
-                )}
+                {[
+                  { name: "Oakland", slug: "oakland" },
+                  { name: "Berkeley", slug: "berkeley" },
+                  { name: "Fremont", slug: "fremont" },
+                  { name: "Pleasanton", slug: "pleasanton" },
+                  { name: "Dublin", slug: "dublin" },
+                  { name: "Livermore", slug: "livermore" },
+                  { name: "San Jose", slug: "san-jose" },
+                  { name: "Hayward", slug: "hayward" }
+                ].map((city, index) => (
+                    <Link key={index} href={`/locations/${city.slug}`} className="flex items-center space-x-2 hover:text-blue-600 transition-colors group">
+                      <CheckCircle className="w-5 h-5 text-green-600 group-hover:text-blue-600 transition-colors" />
+                      <span className="text-slate-700 group-hover:text-blue-600 transition-colors font-medium">{city.name}</span>
+                    </Link>
+                ))}
               </div>
 
               <Button 
@@ -811,6 +953,107 @@ export default function ConcretePage() {
                 height={500}
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Network - Strategic Internal Linking Hub */}
+      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-800 mb-6">Complete Bay Area Concrete Network</h2>
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto">
+              Connecting specialized concrete services across all major Bay Area cities. From <Link href="/services/seismic-retrofitting" className="text-blue-600 hover:text-blue-800 underline font-semibold">seismic retrofitting</Link> in earthquake-prone areas to <Link href="/services/pool-decks-patios" className="text-blue-600 hover:text-blue-800 underline font-semibold">luxury pool decks</Link> in premium neighborhoods.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-12 mb-16">
+            {/* Services Column */}
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Specialized Services</h3>
+              <div className="space-y-3">
+                {[
+                  { name: "Seismic Retrofitting", slug: "seismic-retrofitting", popular: "Critical in Oakland & Berkeley" },
+                  { name: "Concrete Driveways", slug: "concrete-driveways", popular: "Popular in Pleasanton & Dublin" },
+                  { name: "Pool Decks & Patios", slug: "pool-decks-patios", popular: "Luxury standard in San Jose" },
+                  { name: "Retaining Walls", slug: "retaining-walls", popular: "Essential in Oakland Hills" },
+                  { name: "Stamped Concrete", slug: "stamped-concrete", popular: "Trending in Livermore" },
+                  { name: "Basement Floors", slug: "basement-floors", popular: "Common in Fremont" },
+                  { name: "Emergency Repair", slug: "emergency-repair", popular: "24/7 throughout Bay Area" }
+                ].map((service, index) => (
+                  <Link key={index} href={`/services/${service.slug}`} className="group block">
+                    <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 group-hover:border-l-4 group-hover:border-blue-500">
+                      <div className="font-semibold text-slate-800 group-hover:text-blue-600 transition-colors">{service.name}</div>
+                      <div className="text-sm text-slate-500 mt-1">{service.popular}</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Locations Column */}
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Service Areas</h3>
+              <div className="space-y-3">
+                {[
+                  { name: "Oakland", slug: "oakland", specialty: "Seismic & Hillside Experts" },
+                  { name: "Berkeley", slug: "berkeley", specialty: "Historic Preservation" },
+                  { name: "Fremont", slug: "fremont", specialty: "Residential & Commercial" },
+                  { name: "Pleasanton", slug: "pleasanton", specialty: "Luxury Outdoor Living" },
+                  { name: "Dublin", slug: "dublin", specialty: "Family-Focused Design" },
+                  { name: "Livermore", slug: "livermore", specialty: "Wine Country & Rural" },
+                  { name: "San Jose", slug: "san-jose", specialty: "Tech Industry Solutions" },
+                  { name: "Hayward", slug: "hayward", specialty: "Multicultural Communities" }
+                ].map((city, index) => (
+                  <Link key={index} href={`/locations/${city.slug}`} className="group block">
+                    <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 group-hover:border-l-4 group-hover:border-green-500">
+                      <div className="font-semibold text-slate-800 group-hover:text-green-600 transition-colors">{city.name}</div>
+                      <div className="text-sm text-slate-500 mt-1">{city.specialty}</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Popular Combinations Column */}
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Popular Combinations</h3>
+              <div className="space-y-3">
+                {[
+                  { title: "Oakland Hills Package", services: ["Retaining Walls", "Seismic Retrofitting"], link: "/locations/oakland" },
+                  { title: "Berkeley Historic Home", services: ["Foundation Work", "Preservation"], link: "/locations/berkeley" },
+                  { title: "Pleasanton Luxury Outdoor", services: ["Pool Decks", "Outdoor Kitchens"], link: "/locations/pleasanton" },
+                  { title: "Dublin Family Living", services: ["Driveways", "Patios"], link: "/locations/dublin" },
+                  { title: "San Jose Tech Campus", services: ["Commercial", "Parking Areas"], link: "/locations/san-jose" },
+                  { title: "Livermore Wine Country", services: ["Agricultural", "Decorative"], link: "/locations/livermore" },
+                  { title: "Fremont Complete Home", services: ["Multiple Services", "Full Property"], link: "/locations/fremont" }
+                ].map((combo, index) => (
+                  <Link key={index} href={combo.link} className="group block">
+                    <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 group-hover:border-l-4 group-hover:border-purple-500">
+                      <div className="font-semibold text-slate-800 group-hover:text-purple-600 transition-colors">{combo.title}</div>
+                      <div className="text-sm text-slate-500 mt-1">{combo.services.join(" + ")}</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="bg-white p-8 rounded-2xl shadow-lg max-w-2xl mx-auto">
+              <h4 className="text-2xl font-bold text-slate-800 mb-4">Strategic Service Network</h4>
+              <p className="text-slate-600 mb-6">
+                Every project connects to our comprehensive network of specialized services and local expertise. From initial <Link href="/services/site-preparation" className="text-blue-600 hover:text-blue-800 underline">site preparation</Link> to final <Link href="/services/stamped-concrete" className="text-blue-600 hover:text-blue-800 underline">decorative finishes</Link>, we coordinate all aspects of concrete construction across the Bay Area.
+              </p>
+              <Button 
+                size="lg" 
+                className="bg-blue-600 hover:bg-blue-700"
+                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+              >
+                <MapPin className="w-5 h-5 mr-2" />
+                Explore Your Options
+              </Button>
             </div>
           </div>
         </div>
@@ -992,13 +1235,17 @@ export default function ConcretePage() {
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Quality Assurance</h4>
-              <div className="space-y-2 text-slate-400 text-sm">
-                <p>Professional Workmanship</p>
-                <p>Quality Materials</p>
-                <p>Customer Satisfaction</p>
-                <p>Free Estimates</p>
-              </div>
+              <h4 className="text-lg font-semibold mb-4">Service Areas</h4>
+              <ul className="space-y-2 text-slate-400">
+                <li><Link href="/locations/oakland" className="hover:text-blue-400 transition-colors">Oakland</Link></li>
+                <li><Link href="/locations/berkeley" className="hover:text-blue-400 transition-colors">Berkeley</Link></li>
+                <li><Link href="/locations/fremont" className="hover:text-blue-400 transition-colors">Fremont</Link></li>
+                <li><Link href="/locations/pleasanton" className="hover:text-blue-400 transition-colors">Pleasanton</Link></li>
+                <li><Link href="/locations/dublin" className="hover:text-blue-400 transition-colors">Dublin</Link></li>
+                <li><Link href="/locations/livermore" className="hover:text-blue-400 transition-colors">Livermore</Link></li>
+                <li><Link href="/locations/san-jose" className="hover:text-blue-400 transition-colors">San Jose</Link></li>
+                <li><Link href="/locations/hayward" className="hover:text-blue-400 transition-colors">Hayward</Link></li>
+              </ul>
             </div>
           </div>
 

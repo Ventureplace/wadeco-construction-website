@@ -46,7 +46,7 @@ export default function StampedConcretePage() {
                 <span className="text-blue-600"> Bay Area Specialists</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Transform your outdoor spaces with decorative stamped concrete that replicates the beauty of natural stone, slate, brick, or wood at a fraction of the cost. Serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, and San Jose with 25+ years of specialized experience.
+                Transform your outdoor spaces with decorative stamped concrete that replicates the beauty of natural stone, slate, brick, or wood at a fraction of the cost. Serving <Link href="/locations/oakland" className="text-blue-600 hover:text-blue-800 underline">Oakland</Link>, <Link href="/locations/berkeley" className="text-blue-600 hover:text-blue-800 underline">Berkeley</Link>, <Link href="/locations/fremont" className="text-blue-600 hover:text-blue-800 underline">Fremont</Link>, <Link href="/locations/pleasanton" className="text-blue-600 hover:text-blue-800 underline">Pleasanton</Link>, <Link href="/locations/dublin" className="text-blue-600 hover:text-blue-800 underline">Dublin</Link>, <Link href="/locations/livermore" className="text-blue-600 hover:text-blue-800 underline">Livermore</Link>, and <Link href="/locations/san-jose" className="text-blue-600 hover:text-blue-800 underline">San Jose</Link> with 25+ years of specialized experience.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
