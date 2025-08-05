@@ -4,8 +4,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
   ArrowLeft,
   Shield,
   AlertTriangle,
@@ -168,7 +166,7 @@ export default function SpecializedServicesPage() {
                     ADA-compliant concrete work includes accessible parking spaces, curb ramps, sidewalk transitions, building entrances, and recreational facilities. Each application requires specific slope tolerances, surface finishes, and dimensional accuracy that we achieve through precision construction techniques.
                   </p>
                   <p className="mt-4">
-                    Our ADA installations include tactile warning surfaces, proper drainage that doesn't impede accessibility, and durable finishes that maintain slip resistance over time. We coordinate with architects and disability consultants to ensure comprehensive accessibility compliance.
+                    Our ADA installations include tactile warning surfaces, proper drainage that doesn&apos;t impede accessibility, and durable finishes that maintain slip resistance over time. We coordinate with architects and disability consultants to ensure comprehensive accessibility compliance.
                   </p>
                 </div>
               </div>

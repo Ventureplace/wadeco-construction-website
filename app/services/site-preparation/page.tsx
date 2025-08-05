@@ -4,8 +4,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
   ArrowLeft,
   Truck,
   Mountain,
@@ -193,7 +191,7 @@ export default function SitePreparationPage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Drainage System Design</h3>
               <p>
-                Effective drainage is essential for concrete longevity in Bay Area's variable rainfall patterns. We design and install comprehensive drainage systems including surface grading, subsurface drains, and storm water management features that handle both normal precipitation and extreme weather events.
+                Effective drainage is essential for concrete longevity in Bay Area&apos;s variable rainfall patterns. We design and install comprehensive drainage systems including surface grading, subsurface drains, and storm water management features that handle both normal precipitation and extreme weather events.
               </p>
               <p>
                 Our drainage solutions include French drain systems, area drains, and bioswale integration that comply with local storm water management requirements. We coordinate with municipal storm drain systems and environmental agencies for projects affecting natural drainage patterns.
@@ -259,7 +257,7 @@ export default function SitePreparationPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Start Your Project Right?</h2>
           <p className="text-xl text-amber-100 mb-8 max-w-2xl mx-auto">
-            Contact Wade & Co. Construction for professional site preparation and excavation services that ensure your concrete project's long-term success.
+            Contact Wade & Co. Construction for professional site preparation and excavation services that ensure your concrete project&apos;s long-term success.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

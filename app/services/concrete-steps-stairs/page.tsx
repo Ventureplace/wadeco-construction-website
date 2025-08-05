@@ -4,15 +4,14 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
   ArrowLeft,
   Users,
   Shield,
   Ruler,
   Home,
   Building,
-  Accessibility
+  Accessibility,
+  CheckCircle
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"

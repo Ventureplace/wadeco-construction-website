@@ -1,16 +1,10 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
-  Star, 
-  Clock,
-  Shield,
-  Award,
-  ArrowLeft
+  ArrowLeft,
+  FileText
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -102,17 +96,17 @@ export default function StampedConcretePage() {
                     Our Bay Area stamped concrete projects begin with thorough site evaluation and preparation tailored to local soil conditions. In areas like Fremont and Hayward with expansive clay soils, we implement specialized base preparation including proper excavation depths, aggregate base installation, and moisture barrier systems. For hillside locations in Oakland and Berkeley, we address drainage requirements and slope stabilization before concrete placement.
                   </p>
                   <p className="mt-4">
-                    We coordinate with local utility companies to identify underground services and obtain proper permits from city building departments. Our team understands the specific requirements of each Bay Area municipality, from San Jose's strict drainage ordinances to Dublin's residential concrete specifications.
+                    We coordinate with local utility companies to identify underground services and obtain proper permits from city building departments. Our team understands the specific requirements of each Bay Area municipality, from San Jose&apos;s strict drainage ordinances to Dublin&apos;s residential concrete specifications.
                   </p>
                 </div>
                 
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Advanced Stamping Techniques</h4>
                   <p>
-                    Wade & Co. Construction utilizes professional-grade stamping tools and techniques developed over 25+ years of Bay Area concrete experience. Our extensive pattern library includes slate, stone, brick, wood plank, and custom designs that complement your property's architectural style. We achieve authentic textures and realistic joint patterns that are virtually indistinguishable from natural materials.
+                    Wade & Co. Construction utilizes professional-grade stamping tools and techniques developed over 25+ years of Bay Area concrete experience. Our extensive pattern library includes slate, stone, brick, wood plank, and custom designs that complement your property&apos;s architectural style. We achieve authentic textures and realistic joint patterns that are virtually indistinguishable from natural materials.
                   </p>
                   <p className="mt-4">
-                    Color integration is achieved through both integral coloring mixed directly into the concrete and surface-applied color hardeners that create depth and variation. Our color specialists help you select combinations that complement your home's exterior and landscape design while considering how Bay Area sunlight and weather conditions will affect long-term appearance.
+                    Color integration is achieved through both integral coloring mixed directly into the concrete and surface-applied color hardeners that create depth and variation. Our color specialists help you select combinations that complement your home&apos;s exterior and landscape design while considering how Bay Area sunlight and weather conditions will affect long-term appearance.
                   </p>
                 </div>
               </div>

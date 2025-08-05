@@ -4,13 +4,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
   ArrowLeft,
   Shield,
   Mountain,
   Droplets,
-  Building
+  Building,
+  FileText
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -52,7 +51,7 @@ export default function RetainingWallsPage() {
                 <span className="text-blue-600"> Bay Area Engineering</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Engineered concrete retaining walls designed for Bay Area's unique geological challenges. From hillside stabilization in Oakland and Berkeley to landscape walls in Pleasanton and Dublin, we provide structural solutions that combine safety, durability, and aesthetic appeal.
+                Engineered concrete retaining walls designed for Bay Area&apos;s unique geological challenges. From hillside stabilization in Oakland and Berkeley to landscape walls in Pleasanton and Dublin, we provide structural solutions that combine safety, durability, and aesthetic appeal.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -127,7 +126,7 @@ export default function RetainingWallsPage() {
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Retaining walls in the Bay Area require specialized engineering knowledge due to our region's unique combination of seismic activity, varied soil compositions, and challenging topography. Wade & Co. Construction brings 25+ years of experience designing and constructing concrete retaining walls that not only meet structural requirements but enhance property value and aesthetic appeal.
+                Retaining walls in the Bay Area require specialized engineering knowledge due to our region&apos;s unique combination of seismic activity, varied soil compositions, and challenging topography. Wade & Co. Construction brings 25+ years of experience designing and constructing concrete retaining walls that not only meet structural requirements but enhance property value and aesthetic appeal.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Geological Challenges & Solutions</h3>
@@ -135,10 +134,10 @@ export default function RetainingWallsPage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">East Bay Conditions</h4>
                   <p>
-                    Oakland and Berkeley's hillside locations present unique challenges with steep slopes, expansive clay soils, and potential landslide zones. Our retaining walls in these areas incorporate deep foundations, extensive drainage systems, and seismic design features to address lateral earth pressures and dynamic loading conditions.
+                    Oakland and Berkeley&apos;s hillside locations present unique challenges with steep slopes, expansive clay soils, and potential landslide zones. Our retaining walls in these areas incorporate deep foundations, extensive drainage systems, and seismic design features to address lateral earth pressures and dynamic loading conditions.
                   </p>
                   <p className="mt-4">
-                    Fremont and Hayward's expansive clay soils require specialized foundation designs with deep caissons or piles extending below the active soil zone. We implement moisture control systems and flexible joint details to accommodate soil movement without compromising structural integrity.
+                    Fremont and Hayward&apos;s expansive clay soils require specialized foundation designs with deep caissons or piles extending below the active soil zone. We implement moisture control systems and flexible joint details to accommodate soil movement without compromising structural integrity.
                   </p>
                 </div>
                 
@@ -198,7 +197,7 @@ export default function RetainingWallsPage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Drainage & Waterproofing Systems</h3>
               <p>
-                Proper drainage is critical for retaining wall longevity in Bay Area's variable rainfall patterns. Our drainage systems include perforated collection pipes, graded filter materials, and surface water management features designed to handle both normal drainage and extreme weather events.
+                Proper drainage is critical for retaining wall longevity in Bay Area&apos;s variable rainfall patterns. Our drainage systems include perforated collection pipes, graded filter materials, and surface water management features designed to handle both normal drainage and extreme weather events.
               </p>
               <p>
                 Waterproofing systems for below-grade walls include multiple layers of protection: crystalline admixtures in the concrete mix, applied membrane systems, and protective board installation. We coordinate with landscape designers to ensure surface drainage integrates seamlessly with overall site design.

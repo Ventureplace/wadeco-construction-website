@@ -4,16 +4,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   MapPin,
   Star,
   Home,
   Building,
-  Shield,
-  Zap,
-  Users,
   Calendar,
   Wine
 } from "lucide-react"
@@ -61,7 +57,7 @@ export default function LivermoreConcretePage() {
                 <span className="text-purple-600"> Wine Country & Rural Specialists</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Expert concrete construction services throughout Livermore including downtown Livermore, South Livermore, North Livermore, and rural wine country properties. Specialized in agricultural concrete, wine industry facilities, equestrian properties, and rural residential construction with expertise in Livermore's unique blend of agricultural heritage and modern suburban development.
+                Expert concrete construction services throughout Livermore including downtown Livermore, South Livermore, North Livermore, and rural wine country properties. Specialized in agricultural concrete, wine industry facilities, equestrian properties, and rural residential construction with expertise in Livermore&apos;s unique blend of agricultural heritage and modern suburban development.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -106,7 +102,7 @@ export default function LivermoreConcretePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-slate-800 mb-4 text-center">Livermore Areas We Serve</h2>
           <p className="text-center text-slate-600 mb-12 max-w-3xl mx-auto">
-            Complete concrete services throughout Livermore's diverse areas from downtown to rural wine country with expertise in agricultural, residential, and commercial construction.
+            Complete concrete services throughout Livermore&apos;s diverse areas from downtown to rural wine country with expertise in agricultural, residential, and commercial construction.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -149,7 +145,7 @@ export default function LivermoreConcretePage() {
               <CardContent className="p-8 text-center">
                 <Building className="w-12 h-12 text-purple-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Historic Downtown</h3>
-                <p className="text-slate-600">Preservation-sensitive concrete work for Livermore's historic downtown district and cultural facilities.</p>
+                <p className="text-slate-600">Preservation-sensitive concrete work for Livermore&apos;s historic downtown district and cultural facilities.</p>
               </CardContent>
             </Card>
           </div>
@@ -164,14 +160,14 @@ export default function LivermoreConcretePage() {
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Livermore uniquely combines world-renowned wine country with suburban residential development, creating diverse concrete construction requirements. Wade & Co. Construction serves this distinctive community with expertise in agricultural concrete, wine industry facilities, rural residential projects, and urban development that respects Livermore's agricultural heritage while supporting modern growth and economic development.
+                Livermore uniquely combines world-renowned wine country with suburban residential development, creating diverse concrete construction requirements. Wade &amp; Co. Construction serves this distinctive community with expertise in agricultural concrete, wine industry facilities, rural residential projects, and urban development that respects Livermore&apos;s agricultural heritage while supporting modern growth and economic development.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Wine Industry Expertise</h3>
               <div className="bg-purple-50 border-l-4 border-purple-500 p-6 mb-8">
                 <h4 className="font-semibold text-purple-800 mb-3">🍷 Livermore Valley Wine Region</h4>
                 <p className="text-purple-700">
-                  Livermore Valley's 50+ wineries require specialized concrete installations including crush pads, fermentation facilities, barrel storage areas, and tasting room construction. Our wine industry experience includes food-grade concrete, proper drainage systems, and installations that meet California Department of Food and Agriculture requirements.
+                  Livermore Valley&apos;s 50+ wineries require specialized concrete installations including crush pads, fermentation facilities, barrel storage areas, and tasting room construction. Our wine industry experience includes food-grade concrete, proper drainage systems, and installations that meet California Department of Food and Agriculture requirements.
                 </p>
               </div>
               
@@ -189,17 +185,17 @@ export default function LivermoreConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Tasting Room & Hospitality</h4>
                   <p>
-                    Livermore's wine tourism requires attractive, durable concrete installations for tasting rooms, event spaces, and outdoor entertainment areas. Our hospitality concrete work emphasizes aesthetic appeal, safety for visitors, and low maintenance requirements for busy winery operations.
+                    Livermore&apos;s wine tourism requires attractive, durable concrete installations for tasting rooms, event spaces, and outdoor entertainment areas. Our hospitality concrete work emphasizes aesthetic appeal, safety for visitors, and low maintenance requirements for busy winery operations.
                   </p>
                   <p className="mt-4">
-                    We create decorative concrete installations that complement wine country aesthetics while providing practical functionality for weddings, corporate events, and daily tasting room operations that drive Livermore's wine tourism economy.
+                    We create decorative concrete installations that complement wine country aesthetics while providing practical functionality for weddings, corporate events, and daily tasting room operations that drive Livermore&apos;s wine tourism economy.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Rural & Agricultural Construction</h3>
               <p>
-                Livermore's rural areas require concrete installations for equestrian facilities, agricultural buildings, and large residential properties with acreage. Our rural construction expertise includes specialized access solutions, large-scale installations, and integration with agricultural operations and natural landscapes.
+                Livermore&apos;s rural areas require concrete installations for equestrian facilities, agricultural buildings, and large residential properties with acreage. Our rural construction expertise includes specialized access solutions, large-scale installations, and integration with agricultural operations and natural landscapes.
               </p>
               
               <div className="bg-white rounded-lg p-6 shadow-md mb-8">
@@ -226,7 +222,7 @@ export default function LivermoreConcretePage() {
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🏛️ Historic Downtown Livermore</h4>
                   <p className="text-sm">
-                    Preservation-sensitive concrete work for downtown's historic district including sidewalk restoration, plaza installations, and building improvements that maintain historic character while meeting modern accessibility and safety requirements. Coordination with Livermore Heritage Guild and city preservation requirements.
+                    Preservation-sensitive concrete work for downtown&apos;s historic district including sidewalk restoration, plaza installations, and building improvements that maintain historic character while meeting modern accessibility and safety requirements. Coordination with Livermore Heritage Guild and city preservation requirements.
                   </p>
                 </div>
                 
@@ -240,14 +236,14 @@ export default function LivermoreConcretePage() {
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🔬 Lawrence Livermore National Laboratory Area</h4>
                   <p className="text-sm">
-                    High-security and technical facility requirements including specialized concrete for research facilities, security installations, and infrastructure supporting one of the nation's premier research institutions. Coordination with federal security and technical requirements.
+                    High-security and technical facility requirements including specialized concrete for research facilities, security installations, and infrastructure supporting one of the nation&apos;s premier research institutions. Coordination with federal security and technical requirements.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Climate & Environmental Considerations</h3>
               <p>
-                Livermore's inland valley climate features hot, dry summers with temperatures often exceeding 100°F and mild winters, requiring concrete installations designed for extreme temperature variations and UV exposure. Our construction techniques account for thermal expansion and long-term durability in challenging conditions.
+                Livermore&apos;s inland valley climate features hot, dry summers with temperatures often exceeding 100°F and mild winters, requiring concrete installations designed for extreme temperature variations and UV exposure. Our construction techniques account for thermal expansion and long-term durability in challenging conditions.
               </p>
               
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
@@ -263,23 +259,23 @@ export default function LivermoreConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Economic Development Support</h3>
               <p>
-                Livermore's economic development balances wine tourism, research institutions, and residential growth, creating diverse concrete construction opportunities. Our commercial work supports this economic diversity while maintaining community character and agricultural heritage.
+                Livermore&apos;s economic development balances wine tourism, research institutions, and residential growth, creating diverse concrete construction opportunities. Our commercial work supports this economic diversity while maintaining community character and agricultural heritage.
               </p>
               <p>
-                We coordinate with Livermore's Economic Development Department, tourism organizations, and agricultural groups to ensure concrete projects enhance economic vitality while preserving the unique character that makes Livermore attractive to residents, businesses, and visitors.
+                We coordinate with Livermore&apos;s Economic Development Department, tourism organizations, and agricultural groups to ensure concrete projects enhance economic vitality while preserving the unique character that makes Livermore attractive to residents, businesses, and visitors.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Environmental Stewardship</h3>
               <p>
-                Livermore's agricultural heritage and environmental consciousness require construction practices that minimize environmental impact while supporting sustainable development. Our concrete installations incorporate sustainable materials and techniques that protect natural resources and agricultural viability.
+                Livermore&apos;s agricultural heritage and environmental consciousness require construction practices that minimize environmental impact while supporting sustainable development. Our concrete installations incorporate sustainable materials and techniques that protect natural resources and agricultural viability.
               </p>
               <p>
-                We implement dust control measures during construction, utilize local materials when possible, and design installations that support water conservation and natural drainage patterns essential for continued agricultural and residential use of Livermore's unique landscape.
+                We implement dust control measures during construction, utilize local materials when possible, and design installations that support water conservation and natural drainage patterns essential for continued agricultural and residential use of Livermore&apos;s unique landscape.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Transportation & Access Solutions</h3>
               <p>
-                Livermore's rural areas and vineyard properties often require specialized access solutions for concrete installation including helicopter placement, portable mixing equipment, and coordination with agricultural operations to minimize disruption during harvest and other critical periods.
+                Livermore&apos;s rural areas and vineyard properties often require specialized access solutions for concrete installation including helicopter placement, portable mixing equipment, and coordination with agricultural operations to minimize disruption during harvest and other critical periods.
               </p>
               <p>
                 Our equipment fleet includes specialized machinery for rural access, and we maintain relationships with helicopter concrete placement services for projects requiring minimal ground disturbance or access through sensitive vineyard areas.
@@ -287,10 +283,10 @@ export default function LivermoreConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Community Heritage Preservation</h3>
               <p>
-                Wade & Co. Construction respects Livermore's rich agricultural and cultural heritage through construction practices that preserve historic elements, support local businesses, and maintain the rural character that defines Livermore's unique identity within the rapidly developing Tri-Valley region.
+                Wade &amp; Co. Construction respects Livermore&apos;s rich agricultural and cultural heritage through construction practices that preserve historic elements, support local businesses, and maintain the rural character that defines Livermore&apos;s unique identity within the rapidly developing Tri-Valley region.
               </p>
               <p>
-                Our community involvement includes supporting wine country events, partnering with local agricultural suppliers, and employing construction techniques that respect the working landscape that continues to define Livermore's character and economic foundation.
+                Our community involvement includes supporting wine country events, partnering with local agricultural suppliers, and employing construction techniques that respect the working landscape that continues to define Livermore&apos;s character and economic foundation.
               </p>
             </div>
           </div>
@@ -311,7 +307,7 @@ export default function LivermoreConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Outstanding winery concrete work for our new tasting room and crush pad. Wade & Co. understood our food-grade requirements and delivered quality installations that handle our harvest operations perfectly. Professional wine industry expertise."
+                  &quot;Outstanding winery concrete work for our new tasting room and crush pad. Wade &amp; Co. understood our food-grade requirements and delivered quality installations that handle our harvest operations perfectly. Professional wine industry expertise.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Tom Rodriguez</p>
@@ -328,7 +324,7 @@ export default function LivermoreConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Excellent equestrian facility concrete work on our rural property. They handled the large-scale project professionally and created durable surfaces for our horse operations. Great rural property expertise and attention to detail."
+                  &quot;Excellent equestrian facility concrete work on our rural property. They handled the large-scale project professionally and created durable surfaces for our horse operations. Great rural property expertise and attention to detail.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Susan Williams</p>
@@ -345,7 +341,7 @@ export default function LivermoreConcretePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready for Your Livermore Concrete Project?</h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Contact Livermore's wine country and rural concrete specialists for agricultural, residential, and commercial construction throughout the Tri-Valley.
+            Contact Livermore&apos;s wine country and rural concrete specialists for agricultural, residential, and commercial construction throughout the Tri-Valley.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

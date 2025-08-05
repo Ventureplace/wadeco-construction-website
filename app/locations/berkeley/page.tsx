@@ -4,16 +4,13 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   MapPin,
   Star,
-  Home,
   Building,
   Shield,
   Zap,
-  Users,
   Calendar,
   TreePine
 } from "lucide-react"
@@ -61,7 +58,7 @@ export default function BerkeleyConcretePage() {
                 <span className="text-green-600"> Historic Preservation Specialists</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Expert concrete construction services throughout Berkeley including North Berkeley, South Berkeley, West Berkeley, Berkeley Hills, and UC Campus area. Specialized in historic home preservation, seismic retrofitting, sustainable construction, and hillside projects with deep understanding of Berkeley's environmental regulations, architectural heritage, and progressive building standards.
+                Expert concrete construction services throughout Berkeley including North Berkeley, South Berkeley, West Berkeley, Berkeley Hills, and UC Campus area. Specialized in historic home preservation, seismic retrofitting, sustainable construction, and hillside projects with deep understanding of Berkeley&apos;s environmental regulations, architectural heritage, and progressive building standards.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -135,21 +132,21 @@ export default function BerkeleyConcretePage() {
               <CardContent className="p-8 text-center">
                 <Building className="w-12 h-12 text-green-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Historic Preservation</h3>
-                <p className="text-slate-600">Sensitive concrete work for Berkeley's Craftsman, Tudor, and Colonial Revival homes with landmark preservation compliance.</p>
+                <p className="text-slate-600">Sensitive concrete work for Berkeley&apos;s Craftsman, Tudor, and Colonial Revival homes with landmark preservation compliance.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <TreePine className="w-12 h-12 text-green-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Sustainable Construction</h3>
-                <p className="text-slate-600">Eco-friendly concrete solutions with recycled materials, pervious concrete, and Berkeley's environmental compliance.</p>
+                <p className="text-slate-600">Eco-friendly concrete solutions with recycled materials, pervious concrete, and Berkeley&apos;s environmental compliance.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <Zap className="w-12 h-12 text-red-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Seismic Retrofitting</h3>
-                <p className="text-slate-600">Mandatory soft story retrofitting and foundation upgrades meeting Berkeley's earthquake safety ordinances.</p>
+                <p className="text-slate-600">Mandatory soft story retrofitting and foundation upgrades meeting Berkeley&apos;s earthquake safety ordinances.</p>
               </CardContent>
             </Card>
           </div>
@@ -164,14 +161,14 @@ export default function BerkeleyConcretePage() {
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Berkeley's progressive environmental policies, strict historic preservation requirements, and commitment to sustainability demand specialized concrete construction expertise. Wade & Co. Construction combines traditional craftsmanship with innovative green building practices, ensuring all projects meet Berkeley's rigorous environmental standards while preserving the city's architectural heritage and addressing seismic safety requirements.
+                Berkeley&apos;s progressive environmental policies, strict historic preservation requirements, and commitment to sustainability demand specialized concrete construction expertise. Wade & Co. Construction combines traditional craftsmanship with innovative green building practices, ensuring all projects meet Berkeley&apos;s rigorous environmental standards while preserving the city&apos;s architectural heritage and addressing seismic safety requirements.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Berkeley Environmental Compliance</h3>
               <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
-                <h4 className="font-semibold text-green-800 mb-3">🌱 Berkeley's Green Building Requirements</h4>
+                <h4 className="font-semibold text-green-800 mb-3">🌱 Berkeley&apos;s Green Building Requirements</h4>
                 <p className="text-green-700">
-                  Berkeley Municipal Code requires comprehensive environmental compliance including storm water management, construction waste diversion, and sustainable material usage. All our concrete projects incorporate recycled content, minimize environmental impact, and support Berkeley's climate action goals.
+                  Berkeley Municipal Code requires comprehensive environmental compliance including storm water management, construction waste diversion, and sustainable material usage. All our concrete projects incorporate recycled content, minimize environmental impact, and support Berkeley&apos;s climate action goals.
                 </p>
               </div>
               
@@ -179,33 +176,33 @@ export default function BerkeleyConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Historic District Requirements</h4>
                   <p>
-                    Berkeley's numerous historic districts including Northbrae, Thousand Oaks, and Berkeley Hills require specialized knowledge of preservation standards and design review processes. Our concrete work respects historic architecture while incorporating modern safety and performance requirements.
+                    Berkeley&apos;s numerous historic districts including Northbrae, Thousand Oaks, and Berkeley Hills require specialized knowledge of preservation standards and design review processes. Our concrete work respects historic architecture while incorporating modern safety and performance requirements.
                   </p>
                   <p className="mt-4">
-                    We work closely with Berkeley's Landmarks Preservation Commission and Zoning Adjustments Board to ensure all concrete installations complement historic architecture and meet preservation guidelines. Our projects maintain property values while enhancing safety and functionality.
+                    We work closely with Berkeley&apos;s Landmarks Preservation Commission and Zoning Adjustments Board to ensure all concrete installations complement historic architecture and meet preservation guidelines. Our projects maintain property values while enhancing safety and functionality.
                   </p>
                 </div>
                 
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Berkeley Hills Expertise</h4>
                   <p>
-                    Berkeley Hills' steep terrain, fire safety requirements, and expansive clay soils present unique construction challenges. Our hillside concrete work includes specialized access solutions, comprehensive drainage systems, and fire-resistant materials meeting Berkeley Fire Department standards.
+                    Berkeley Hills&apos; steep terrain, fire safety requirements, and expansive clay soils present unique construction challenges. Our hillside concrete work includes specialized access solutions, comprehensive drainage systems, and fire-resistant materials meeting Berkeley Fire Department standards.
                   </p>
                   <p className="mt-4">
-                    We coordinate with UC Berkeley seismologists and local geotechnical engineers to ensure hillside projects account for slope stability, earthquake forces, and long-term settlement patterns specific to Berkeley's geology and microclimate conditions.
+                    We coordinate with UC Berkeley seismologists and local geotechnical engineers to ensure hillside projects account for slope stability, earthquake forces, and long-term settlement patterns specific to Berkeley&apos;s geology and microclimate conditions.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Sustainable Concrete Practices</h3>
               <p>
-                Berkeley's environmental leadership requires concrete construction that minimizes carbon footprint while maximizing durability and performance. We utilize fly ash, slag cement, and recycled aggregates that reduce environmental impact while meeting Berkeley's stringent performance standards for climate resilience.
+                Berkeley&apos;s environmental leadership requires concrete construction that minimizes carbon footprint while maximizing durability and performance. We utilize fly ash, slag cement, and recycled aggregates that reduce environmental impact while meeting Berkeley&apos;s stringent performance standards for climate resilience.
               </p>
               
               <div className="bg-white rounded-lg p-6 shadow-md mb-8">
                 <h4 className="font-semibold text-slate-800 mb-4">Berkeley Green Building Integration</h4>
                 <ul className="text-sm space-y-2">
-                  <li>• <strong>Pervious Concrete Systems:</strong> Storm water management compliance with Berkeley's watershed protection</li>
+                  <li>• <strong>Pervious Concrete Systems:</strong> Storm water management compliance with Berkeley&apos;s watershed protection</li>
                   <li>• <strong>Recycled Content:</strong> Minimum 30% recycled materials in all concrete mixes</li>
                   <li>• <strong>Local Material Sourcing:</strong> Reduced transportation emissions through Bay Area suppliers</li>
                   <li>• <strong>Construction Waste Diversion:</strong> 90%+ waste diversion meeting Berkeley requirements</li>
@@ -233,7 +230,7 @@ export default function BerkeleyConcretePage() {
                 <div className="bg-green-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🏭 West Berkeley</h4>
                   <p className="text-sm">
-                    Mixed-use industrial and residential area with focus on sustainable development and adaptive reuse. Our commercial concrete work supports Berkeley's innovation economy with flexible, durable installations for tech companies, maker spaces, and sustainable manufacturing facilities.
+                    Mixed-use industrial and residential area with focus on sustainable development and adaptive reuse. Our commercial concrete work supports Berkeley&apos;s innovation economy with flexible, durable installations for tech companies, maker spaces, and sustainable manufacturing facilities.
                   </p>
                 </div>
                 
@@ -247,7 +244,7 @@ export default function BerkeleyConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Berkeley Seismic Safety Compliance</h3>
               <p>
-                Berkeley's mandatory seismic safety programs require comprehensive retrofitting for vulnerable buildings, with particular focus on soft story structures and unreinforced masonry. Our seismic work coordinates with Berkeley's Building Safety Division and includes foundation anchoring, cripple wall bracing, and soft story reinforcement.
+                Berkeley&apos;s mandatory seismic safety programs require comprehensive retrofitting for vulnerable buildings, with particular focus on soft story structures and unreinforced masonry. Our seismic work coordinates with Berkeley&apos;s Building Safety Division and includes foundation anchoring, cripple wall bracing, and soft story reinforcement.
               </p>
               
               <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
@@ -263,15 +260,15 @@ export default function BerkeleyConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">University Partnerships & Research Integration</h3>
               <p>
-                Wade & Co. Construction maintains relationships with UC Berkeley's Department of Civil and Environmental Engineering, incorporating latest research in sustainable concrete technology, earthquake engineering, and climate-resilient construction practices into our Berkeley projects.
+                Wade & Co. Construction maintains relationships with UC Berkeley&apos;s Department of Civil and Environmental Engineering, incorporating latest research in sustainable concrete technology, earthquake engineering, and climate-resilient construction practices into our Berkeley projects.
               </p>
               <p>
                 Our collaboration with UC Berkeley researchers ensures access to cutting-edge concrete technologies, materials testing capabilities, and innovative construction techniques that position Berkeley projects at the forefront of sustainable construction practices and seismic safety innovation.
               </p>
 
-              <h3 className="text-2xl font-semibent text-slate-800 mb-6">Berkeley Permit Process Navigation</h3>
+              <h3 className="text-2xl font-semibold text-slate-800 mb-6">Berkeley Permit Process Navigation</h3>
               <p>
-                Berkeley's comprehensive permitting process requires expertise in environmental review, historic preservation evaluation, and community engagement procedures. We provide complete permit coordination including CEQA compliance, design review board presentations, and neighbor notification processes.
+                Berkeley&apos;s comprehensive permitting process requires expertise in environmental review, historic preservation evaluation, and community engagement procedures. We provide complete permit coordination including CEQA compliance, design review board presentations, and neighbor notification processes.
               </p>
               <p>
                 Our Berkeley permit experience includes relationships with city staff, familiarity with review timelines, and understanding of community concerns that ensure smooth project approval and implementation. We handle all regulatory coordination while keeping projects on schedule and within budget.
@@ -295,7 +292,7 @@ export default function BerkeleyConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Outstanding historic preservation work on our 1908 Craftsman home in North Berkeley. Wade & Co. understood both the landmark requirements and Berkeley's environmental standards. Professional throughout the entire process."
+                  &quot;Outstanding historic preservation work on our 1908 Craftsman home in North Berkeley. Wade & Co. understood both the landmark requirements and Berkeley&apos;s environmental standards. Professional throughout the entire process.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Sarah Wilson</p>
@@ -312,7 +309,7 @@ export default function BerkeleyConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Excellent sustainable concrete work for our Berkeley Hills home. They used recycled materials and handled all the environmental compliance perfectly. Great local knowledge and eco-friendly practices."
+                  &quot;Excellent sustainable concrete work for our Berkeley Hills home. They used recycled materials and handled all the environmental compliance perfectly. Great local knowledge and eco-friendly practices.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Dr. Michael Green</p>
@@ -329,7 +326,7 @@ export default function BerkeleyConcretePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready for Your Berkeley Concrete Project?</h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Contact Berkeley's sustainable concrete specialists for environmentally compliant construction, historic preservation, and seismic safety solutions.
+            Contact Berkeley&apos;s sustainable concrete specialists for environmentally compliant construction, historic preservation, and seismic safety solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

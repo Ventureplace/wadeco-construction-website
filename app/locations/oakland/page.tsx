@@ -4,17 +4,15 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   MapPin,
   Star,
-  Home,
   Building,
+  Calendar,
   Shield,
   Zap,
-  Users,
-  Calendar
+  Home
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -148,7 +146,7 @@ export default function OaklandConcretePage() {
               <CardContent className="p-8 text-center">
                 <Building className="w-12 h-12 text-blue-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Historic Home Restoration</h3>
-                <p className="text-slate-600">Concrete work for Oakland's Victorian and Craftsman homes with period-appropriate techniques and materials.</p>
+                <p className="text-slate-600">Concrete work for Oakland&apos;s Victorian and Craftsman homes with period-appropriate techniques and materials.</p>
               </CardContent>
             </Card>
           </div>
@@ -163,7 +161,7 @@ export default function OaklandConcretePage() {
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Oakland's unique geological conditions, seismic risks, and diverse architectural heritage require specialized concrete construction expertise. Wade & Co. Construction brings over 25 years of Oakland-specific experience, with deep understanding of Hayward Fault proximity, expansive clay soils, hillside construction challenges, and the city's rich architectural history from Victorian homes to modern developments.
+                Oakland&apos;s unique geological conditions, seismic risks, and diverse architectural heritage require specialized concrete construction expertise. Wade & Co. Construction brings over 25 years of Oakland-specific experience, with deep understanding of Hayward Fault proximity, expansive clay soils, hillside construction challenges, and the city&apos;s rich architectural history from Victorian homes to modern developments.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Oakland Geological Challenges</h3>
@@ -178,10 +176,10 @@ export default function OaklandConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">East Bay Soil Conditions</h4>
                   <p>
-                    Oakland's soil profile varies dramatically from bay mud and fill near the waterfront to hard clay and rock in the hills. Rockridge, Montclair, and Oakland Hills areas feature expansive clay soils that undergo significant volume changes with moisture variations, requiring specialized foundation design and drainage management.
+                    Oakland&apos;s soil profile varies dramatically from bay mud and fill near the waterfront to hard clay and rock in the hills. Rockridge, Montclair, and Oakland Hills areas feature expansive clay soils that undergo significant volume changes with moisture variations, requiring specialized foundation design and drainage management.
                   </p>
                   <p className="mt-4">
-                    We implement soil-specific concrete mix designs, reinforcement patterns, and moisture control systems that account for Oakland's diverse geological conditions. Our projects include comprehensive soil testing and site-specific engineering that ensures long-term performance.
+                    We implement soil-specific concrete mix designs, reinforcement patterns, and moisture control systems that account for Oakland&apos;s diverse geological conditions. Our projects include comprehensive soil testing and site-specific engineering that ensures long-term performance.
                   </p>
                 </div>
                 
@@ -198,7 +196,7 @@ export default function OaklandConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Oakland Building Code Compliance</h3>
               <p>
-                Oakland's building codes incorporate California's most stringent seismic requirements plus city-specific amendments for historic preservation, environmental protection, and fire safety. Our concrete projects comply with Oakland Municipal Code Chapter 15.04 (Building Code) and Chapter 15.36 (Seismic Safety) requirements.
+                Oakland&apos;s building codes incorporate California&apos;s most stringent seismic requirements plus city-specific amendments for historic preservation, environmental protection, and fire safety. Our concrete projects comply with Oakland Municipal Code Chapter 15.04 (Building Code) and Chapter 15.36 (Seismic Safety) requirements.
               </p>
               
               <div className="bg-white rounded-lg p-6 shadow-md mb-8">
@@ -232,7 +230,7 @@ export default function OaklandConcretePage() {
                 <div className="bg-slate-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🏢 Downtown & Jack London Square</h4>
                   <p className="text-sm">
-                    Commercial and mixed-use developments requiring ADA compliance, high-traffic durability, and coordination with urban infrastructure. Our commercial concrete work includes sidewalks, plaza installations, and structural elements that integrate with Oakland's urban planning initiatives.
+                    Commercial and mixed-use developments requiring ADA compliance, high-traffic durability, and coordination with urban infrastructure. Our commercial concrete work includes sidewalks, plaza installations, and structural elements that integrate with Oakland&apos;s urban planning initiatives.
                   </p>
                 </div>
                 
@@ -246,7 +244,7 @@ export default function OaklandConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Oakland Emergency Response</h3>
               <p>
-                Oakland's earthquake risk requires comprehensive emergency response capabilities. We maintain 24/7 emergency services for post-earthquake damage assessment, emergency stabilization, and rapid repair of critical infrastructure. Our emergency response coordinates with Oakland Fire Department, Police, and Emergency Services.
+                Oakland&apos;s earthquake risk requires comprehensive emergency response capabilities. We maintain 24/7 emergency services for post-earthquake damage assessment, emergency stabilization, and rapid repair of critical infrastructure. Our emergency response coordinates with Oakland Fire Department, Police, and Emergency Services.
               </p>
               
               <div className="bg-orange-50 border-l-4 border-orange-500 p-6 mb-8">
@@ -262,18 +260,18 @@ export default function OaklandConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Community Involvement & Local Partnerships</h3>
               <p>
-                Wade & Co. Construction is actively involved in Oakland's construction community through partnerships with local suppliers, subcontractors, and community organizations. We source materials locally when possible, employ Oakland-area craftsmen, and support community development initiatives that strengthen neighborhood infrastructure.
+                Wade & Co. Construction is actively involved in Oakland&apos;s construction community through partnerships with local suppliers, subcontractors, and community organizations. We source materials locally when possible, employ Oakland-area craftsmen, and support community development initiatives that strengthen neighborhood infrastructure.
               </p>
               <p>
-                Our Oakland partnerships include relationships with local engineering firms, architectural practices specializing in Bay Area design, and environmental consultants familiar with Oakland's unique ecological and regulatory requirements. These partnerships ensure comprehensive project delivery that benefits the entire Oakland community.
+                Our Oakland partnerships include relationships with local engineering firms, architectural practices specializing in Bay Area design, and environmental consultants familiar with Oakland&apos;s unique ecological and regulatory requirements. These partnerships ensure comprehensive project delivery that benefits the entire Oakland community.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Why Choose Local Oakland Contractors</h3>
               <p>
-                Local expertise matters significantly in Oakland's complex construction environment. Our Oakland-based team understands neighborhood character, building department procedures, local soil conditions, and community expectations. We provide faster response times, better project coordination, and ongoing maintenance support that out-of-area contractors cannot match.
+                Local expertise matters significantly in Oakland&apos;s complex construction environment. Our Oakland-based team understands neighborhood character, building department procedures, local soil conditions, and community expectations. We provide faster response times, better project coordination, and ongoing maintenance support that out-of-area contractors cannot match.
               </p>
               <p>
-                Our 25+ years of Oakland experience includes relationships with local suppliers, expedited permitting knowledge, and understanding of seasonal construction patterns that optimize project scheduling and cost management. We provide comprehensive warranties backed by local presence and commitment to Oakland's construction community.
+                Our 25+ years of Oakland experience includes relationships with local suppliers, expedited permitting knowledge, and understanding of seasonal construction patterns that optimize project scheduling and cost management. We provide comprehensive warranties backed by local presence and commitment to Oakland&apos;s construction community.
               </p>
             </div>
           </div>
@@ -294,7 +292,7 @@ export default function OaklandConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Excellent seismic retrofitting work on our Rockridge Craftsman home. Wade & Co. understood the historic character and Oakland building requirements perfectly. Professional crew, quality materials, completed on schedule."
+                  &quot;Excellent seismic retrofitting work on our Rockridge Craftsman home. Wade &amp; Co. understood the historic character and Oakland building requirements perfectly. Professional crew, quality materials, completed on schedule.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Jennifer Martinez</p>
@@ -311,7 +309,7 @@ export default function OaklandConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Outstanding hillside driveway project in the Oakland Hills. They handled the challenging terrain and drainage issues perfectly. Local expertise made all the difference for our steep lot."
+                  &quot;Outstanding hillside driveway project in the Oakland Hills. They handled the challenging terrain and drainage issues perfectly. Local expertise made all the difference for our steep lot.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">David Chen</p>
@@ -328,7 +326,7 @@ export default function OaklandConcretePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready for Your Oakland Concrete Project?</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Contact Oakland's trusted concrete contractors for professional installation, seismic retrofitting, and emergency services throughout all Oakland neighborhoods.
+            Contact Oakland&apos;s trusted concrete contractors for professional installation, seismic retrofitting, and emergency services throughout all Oakland neighborhoods.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

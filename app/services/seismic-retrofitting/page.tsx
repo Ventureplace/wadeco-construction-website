@@ -4,15 +4,14 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
   ArrowLeft,
   Shield,
   AlertTriangle,
   Home,
   Building,
   Wrench,
-  Target
+  Target,
+  CheckCircle
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -153,7 +152,7 @@ export default function SeismicRetrofittingPage() {
               <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
                 <h3 className="text-xl font-semibold text-red-800 mb-3">Why Seismic Retrofitting is Critical in the Bay Area</h3>
                 <p className="text-red-700">
-                  The San Francisco Bay Area sits on multiple active fault lines including the San Andreas, Hayward, and Calaveras faults. Homes built before 1980 often lack modern earthquake safety features, making them vulnerable to foundation failure, structural collapse, and sliding off foundations during seismic events. Professional seismic retrofitting is not just recommended—it's essential for life safety and property protection.
+                  The San Francisco Bay Area sits on multiple active fault lines including the San Andreas, Hayward, and Calaveras faults. Homes built before 1980 often lack modern earthquake safety features, making them vulnerable to foundation failure, structural collapse, and sliding off foundations during seismic events. Professional seismic retrofitting is not just recommended—it&apos;s essential for life safety and property protection.
                 </p>
               </div>
 
@@ -223,7 +222,7 @@ export default function SeismicRetrofittingPage() {
 
               <h3 className="text-2xl font-semibent text-slate-800 mb-6">Shear Wall Construction</h3>
               <p>
-                Shear walls provide critical lateral force resistance during seismic events, transferring earthquake forces from the building's upper levels down to the foundation. Our shear wall designs utilize engineered lumber, structural steel connections, and advanced fastening systems to create integrated structural systems capable of withstanding major earthquakes.
+                Shear walls provide critical lateral force resistance during seismic events, transferring earthquake forces from the building&apos;s upper levels down to the foundation. Our shear wall designs utilize engineered lumber, structural steel connections, and advanced fastening systems to create integrated structural systems capable of withstanding major earthquakes.
               </p>
               <p>
                 Construction includes precise layout and installation of structural framing, application of engineered sheathing materials, and creation of continuous load paths from roof to foundation. We coordinate with structural engineers to ensure compliance with current International Building Code (IBC) and California Building Code (CBC) requirements.
@@ -268,7 +267,7 @@ export default function SeismicRetrofittingPage() {
       {/* CTA Section */}
       <section className="py-16 bg-red-600">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Don't Wait for the Next Earthquake</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Don&apos;t Wait for the Next Earthquake</h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
             Protect your family and property with professional seismic retrofitting. Contact Wade & Co. Construction for a comprehensive earthquake safety assessment.
           </p>

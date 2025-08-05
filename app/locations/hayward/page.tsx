@@ -4,16 +4,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   MapPin,
   Star,
-  Home,
   Building,
-  Shield,
   Zap,
-  Users,
   Calendar,
   Heart
 } from "lucide-react"
@@ -61,7 +57,7 @@ export default function HaywardConcretePage() {
                 <span className="text-red-600"> Heart of the East Bay</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Complete concrete construction services throughout Hayward including Downtown Hayward, Hayward Hills, Castro Valley border areas, and industrial districts. Specialized in diverse residential communities, commercial development, industrial facilities, and critical seismic retrofitting with expertise in Hayward's multicultural neighborhoods and challenging geological conditions near the Hayward Fault.
+                Complete concrete construction services throughout Hayward including Downtown Hayward, Hayward Hills, Castro Valley border areas, and industrial districts. Specialized in diverse residential communities, commercial development, industrial facilities, and critical seismic retrofitting with expertise in Hayward&apos;s multicultural neighborhoods and challenging geological conditions near the Hayward Fault.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -106,7 +102,7 @@ export default function HaywardConcretePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-slate-800 mb-4 text-center">Hayward Communities We Serve</h2>
           <p className="text-center text-slate-600 mb-12 max-w-3xl mx-auto">
-            Complete concrete services throughout Hayward's diverse neighborhoods with expertise in multicultural communities, seismic safety, and varied architectural styles.
+            Complete concrete services throughout Hayward&apos;s diverse neighborhoods with expertise in multicultural communities, seismic safety, and varied architectural styles.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -142,14 +138,14 @@ export default function HaywardConcretePage() {
               <CardContent className="p-8 text-center">
                 <Heart className="w-12 h-12 text-red-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Multicultural Communities</h3>
-                <p className="text-slate-600">Concrete services respecting diverse architectural traditions and cultural preferences throughout Hayward's neighborhoods.</p>
+                <p className="text-slate-600">Concrete services respecting diverse architectural traditions and cultural preferences throughout Hayward&apos;s neighborhoods.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <Building className="w-12 h-12 text-red-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Industrial & Commercial</h3>
-                <p className="text-slate-600">Heavy-duty concrete for Hayward's industrial corridor and growing commercial development districts.</p>
+                <p className="text-slate-600">Heavy-duty concrete for Hayward&apos;s industrial corridor and growing commercial development districts.</p>
               </CardContent>
             </Card>
           </div>
@@ -182,14 +178,14 @@ export default function HaywardConcretePage() {
                     The Hayward Fault runs directly through Hayward, creating surface rupture zones where the fault breaks the ground surface during earthquakes. Properties within these zones face catastrophic damage risk, requiring specialized foundation design and structural reinforcement that goes beyond standard seismic requirements.
                   </p>
                   <p className="mt-4">
-                    Our seismic retrofitting addresses Hayward's unique risks including surface rupture potential, amplified ground shaking, and liquefaction hazards in bay-adjacent areas. We coordinate with seismic engineers and utilize advanced retrofitting techniques specifically designed for fault-proximal locations.
+                    Our seismic retrofitting addresses Hayward&apos;s unique risks including surface rupture potential, amplified ground shaking, and liquefaction hazards in bay-adjacent areas. We coordinate with seismic engineers and utilize advanced retrofitting techniques specifically designed for fault-proximal locations.
                   </p>
                 </div>
                 
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Emergency Response Preparation</h4>
                   <p>
-                    Hayward's earthquake risk requires comprehensive emergency response planning including immediate post-earthquake assessment capabilities, emergency stabilization procedures, and rapid repair mobilization. We maintain emergency response teams specifically trained for major earthquake damage scenarios.
+                    Hayward&apos;s earthquake risk requires comprehensive emergency response planning including immediate post-earthquake assessment capabilities, emergency stabilization procedures, and rapid repair mobilization. We maintain emergency response teams specifically trained for major earthquake damage scenarios.
                   </p>
                   <p className="mt-4">
                     Our emergency preparedness includes stockpiled materials, specialized equipment, and coordination protocols with Hayward Fire Department, emergency services, and regional disaster response agencies. We provide 24/7 emergency response for critical safety situations throughout Hayward.
@@ -199,7 +195,7 @@ export default function HaywardConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Multicultural Community Service</h3>
               <p>
-                Hayward's exceptional cultural diversity includes significant Latino, Asian, African American, and Pacific Islander communities, each with unique architectural preferences and construction requirements. Our concrete services respect cultural traditions while ensuring uniform safety and performance standards.
+                Hayward&apos;s exceptional cultural diversity includes significant Latino, Asian, African American, and Pacific Islander communities, each with unique architectural preferences and construction requirements. Our concrete services respect cultural traditions while ensuring uniform safety and performance standards.
               </p>
               
               <div className="bg-white rounded-lg p-6 shadow-md mb-8">
@@ -247,7 +243,7 @@ export default function HaywardConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Industrial Corridor Expertise</h3>
               <p>
-                Hayward's industrial corridor along Highway 880 hosts major manufacturing, logistics, and distribution facilities requiring heavy-duty concrete installations. Our industrial concrete work includes precision floors, equipment foundations, and loading facilities designed for continuous heavy use.
+                Hayward&apos;s industrial corridor along Highway 880 hosts major manufacturing, logistics, and distribution facilities requiring heavy-duty concrete installations. Our industrial concrete work includes precision floors, equipment foundations, and loading facilities designed for continuous heavy use.
               </p>
               
               <div className="bg-gray-50 border-l-4 border-gray-500 p-6 mb-8">
@@ -263,15 +259,15 @@ export default function HaywardConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Affordable Housing & Community Development</h3>
               <p>
-                Hayward's commitment to affordable housing creates opportunities for concrete construction that supports diverse economic levels while maintaining quality and safety standards. We work with affordable housing developers, community land trusts, and nonprofit organizations to provide cost-effective construction solutions.
+                Hayward&apos;s commitment to affordable housing creates opportunities for concrete construction that supports diverse economic levels while maintaining quality and safety standards. We work with affordable housing developers, community land trusts, and nonprofit organizations to provide cost-effective construction solutions.
               </p>
               <p>
-                Our affordable housing work includes value engineering, efficient construction methods, and durable installations that minimize long-term maintenance costs while providing safe, attractive living environments for working families and seniors throughout Hayward's diverse communities.
+                Our affordable housing work includes value engineering, efficient construction methods, and durable installations that minimize long-term maintenance costs while providing safe, attractive living environments for working families and seniors throughout Hayward&apos;s diverse communities.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Public Safety & Community Infrastructure</h3>
               <p>
-                Hayward's commitment to public safety requires concrete installations that support police, fire, and emergency services while enhancing community connectivity and quality of life. Our municipal work includes sidewalks, public facilities, and infrastructure that serves all community members.
+                Hayward&apos;s commitment to public safety requires concrete installations that support police, fire, and emergency services while enhancing community connectivity and quality of life. Our municipal work includes sidewalks, public facilities, and infrastructure that serves all community members.
               </p>
               <p>
                 We coordinate with Hayward Police Department, Fire Department, and Public Works to ensure concrete projects enhance public safety while providing accessibility and community benefits that strengthen neighborhood connections and civic engagement.
@@ -279,26 +275,26 @@ export default function HaywardConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Environmental Justice & Health</h3>
               <p>
-                Hayward's environmental justice initiatives require construction practices that minimize environmental impact and support community health goals. Our concrete installations incorporate sustainable materials and techniques that reduce air pollution and environmental burdens on vulnerable communities.
+                Hayward&apos;s environmental justice initiatives require construction practices that minimize environmental impact and support community health goals. Our concrete installations incorporate sustainable materials and techniques that reduce air pollution and environmental burdens on vulnerable communities.
               </p>
               <p>
-                We implement dust control measures, utilize low-emission equipment, and coordinate with environmental health organizations to ensure construction practices support Hayward's environmental justice goals and protect community health, particularly in areas with cumulative environmental impacts.
+                We implement dust control measures, utilize low-emission equipment, and coordinate with environmental health organizations to ensure construction practices support Hayward&apos;s environmental justice goals and protect community health, particularly in areas with cumulative environmental impacts.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Economic Development Support</h3>
               <p>
-                Hayward's economic development strategy emphasizes job creation, small business support, and industrial retention requiring concrete construction that supports diverse economic activities. Our commercial work helps local businesses succeed while contributing to community economic vitality.
+                Hayward&apos;s economic development strategy emphasizes job creation, small business support, and industrial retention requiring concrete construction that supports diverse economic activities. Our commercial work helps local businesses succeed while contributing to community economic vitality.
               </p>
               <p>
-                We partner with Hayward's Economic Development Department, Chamber of Commerce, and business organizations to provide concrete construction services that support entrepreneurship, job creation, and economic opportunities for Hayward residents throughout the city's diverse business districts.
+                We partner with Hayward&apos;s Economic Development Department, Chamber of Commerce, and business organizations to provide concrete construction services that support entrepreneurship, job creation, and economic opportunities for Hayward residents throughout the city&apos;s diverse business districts.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Climate Resilience & Adaptation</h3>
               <p>
-                Hayward's climate action plan requires concrete construction that supports climate resilience including heat island reduction, storm water management, and energy efficiency. Our installations contribute to community climate adaptation while providing superior performance and durability.
+                Hayward&apos;s climate action plan requires concrete construction that supports climate resilience including heat island reduction, storm water management, and energy efficiency. Our installations contribute to community climate adaptation while providing superior performance and durability.
               </p>
               <p>
-                We utilize light-colored concrete surfaces that reduce heat absorption, pervious concrete systems for storm water management, and construction techniques that support renewable energy installation and building energy efficiency throughout Hayward's residential and commercial districts.
+                We utilize light-colored concrete surfaces that reduce heat absorption, pervious concrete systems for storm water management, and construction techniques that support renewable energy installation and building energy efficiency throughout Hayward&apos;s residential and commercial districts.
               </p>
             </div>
           </div>
@@ -319,7 +315,7 @@ export default function HaywardConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Critical seismic retrofitting work for our family home near the Hayward Fault. Wade & Co. understood the urgent safety needs and delivered professional foundation anchoring and cripple wall bracing. Peace of mind for our family's safety."
+                  &quot;Critical seismic retrofitting work for our family home near the Hayward Fault. Wade &amp; Co. understood the urgent safety needs and delivered professional foundation anchoring and cripple wall bracing. Peace of mind for our family&apos;s safety.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Carlos Hernandez</p>
@@ -336,7 +332,7 @@ export default function HaywardConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Excellent industrial concrete work for our manufacturing facility. They handled our heavy-duty floor requirements professionally and delivered on schedule. Strong understanding of industrial needs and quality workmanship."
+                  &quot;Excellent industrial concrete work for our manufacturing facility. They handled our heavy-duty floor requirements professionally and delivered on schedule. Strong understanding of industrial needs and quality workmanship.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Jennifer Wong</p>
@@ -353,7 +349,7 @@ export default function HaywardConcretePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready for Your Hayward Concrete Project?</h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-            Contact Hayward's community-focused concrete contractors for seismic safety, residential, and commercial construction throughout the East Bay.
+            Contact Hayward&apos;s community-focused concrete contractors for seismic safety, residential, and commercial construction throughout the East Bay.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

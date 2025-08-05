@@ -4,8 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
+  FileText,
   ArrowLeft,
   Building2,
   MapPin,

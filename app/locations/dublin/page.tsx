@@ -4,15 +4,11 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   MapPin,
   Star,
-  Home,
   Building,
-  Shield,
-  Zap,
   Users,
   Calendar,
   TrendingUp
@@ -61,7 +57,7 @@ export default function DublinConcretePage() {
                 <span className="text-blue-600"> Growing Community Specialists</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Expert concrete construction services throughout Dublin including East Dublin, John Green Village, Emerald Glen, and Positano. Specialized in new construction, family-oriented residential projects, commercial development, and infrastructure supporting Dublin's rapid growth as a premier Tri-Valley community with excellent schools and family amenities.
+                Expert concrete construction services throughout Dublin including East Dublin, John Green Village, Emerald Glen, and Positano. Specialized in new construction, family-oriented residential projects, commercial development, and infrastructure supporting Dublin&apos;s rapid growth as a premier Tri-Valley community with excellent schools and family amenities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -106,7 +102,7 @@ export default function DublinConcretePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-slate-800 mb-4 text-center">Dublin Communities We Serve</h2>
           <p className="text-center text-slate-600 mb-12 max-w-3xl mx-auto">
-            Complete concrete services throughout Dublin's established and emerging neighborhoods with expertise in new construction and family-oriented development.
+            Complete concrete services throughout Dublin&apos;s established and emerging neighborhoods with expertise in new construction and family-oriented development.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -135,7 +131,7 @@ export default function DublinConcretePage() {
               <CardContent className="p-8 text-center">
                 <TrendingUp className="w-12 h-12 text-blue-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">New Construction</h3>
-                <p className="text-slate-600">Complete concrete services for Dublin's rapidly expanding residential and commercial developments.</p>
+                <p className="text-slate-600">Complete concrete services for Dublin&apos;s rapidly expanding residential and commercial developments.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
@@ -149,7 +145,7 @@ export default function DublinConcretePage() {
               <CardContent className="p-8 text-center">
                 <Building className="w-12 h-12 text-blue-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Transit-Oriented Development</h3>
-                <p className="text-slate-600">Commercial concrete supporting Dublin's BART connectivity and mixed-use development initiatives.</p>
+                <p className="text-slate-600">Commercial concrete supporting Dublin&apos;s BART connectivity and mixed-use development initiatives.</p>
               </CardContent>
             </Card>
           </div>
@@ -160,18 +156,18 @@ export default function DublinConcretePage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-800 mb-8 text-center">Dublin Concrete Contractors: Building Tomorrow's Community</h2>
+            <h2 className="text-3xl font-bold text-slate-800 mb-8 text-center">Dublin Concrete Contractors: Building Tomorrow&apos;s Community</h2>
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Dublin represents the future of Bay Area living, combining excellent schools, family-oriented amenities, and strategic transportation connectivity. Wade & Co. Construction partners with Dublin's growth by providing concrete construction services that support new residential developments, commercial infrastructure, and community facilities that enhance quality of life for Dublin's diverse, family-focused population.
+                Dublin represents the future of Bay Area living, combining excellent schools, family-oriented amenities, and strategic transportation connectivity. Wade &amp; Co. Construction partners with Dublin&apos;s growth by providing concrete construction services that support new residential developments, commercial infrastructure, and community facilities that enhance quality of life for Dublin&apos;s diverse, family-focused population.
               </p>
 
-              <h3 className="text-2xl font-semibold text-slate-800 mb-6">Supporting Dublin's Rapid Growth</h3>
+              <h3 className="text-2xl font-semibold text-slate-800 mb-6">Supporting Dublin&apos;s Rapid Growth</h3>
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
                 <h4 className="font-semibold text-blue-800 mb-3">🏗️ New Development Expertise</h4>
                 <p className="text-blue-700">
-                  Dublin's population has grown by over 60% since 2000, creating continuous demand for new residential and commercial construction. Our concrete services support this growth with efficient project delivery, quality installations, and coordination with Dublin's planning and development requirements.
+                  Dublin&apos;s population has grown by over 60% since 2000, creating continuous demand for new residential and commercial construction. Our concrete services support this growth with efficient project delivery, quality installations, and coordination with Dublin&apos;s planning and development requirements.
                 </p>
               </div>
               
@@ -179,7 +175,7 @@ export default function DublinConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Master-Planned Community Support</h4>
                   <p>
-                    Dublin's master-planned communities like East Dublin and Schaefer Ranch require coordinated concrete installation that meets community design standards while supporting diverse housing types. Our work includes driveways, sidewalks, and community amenities that enhance neighborhood appeal and property values.
+                    Dublin&apos;s master-planned communities like East Dublin and Schaefer Ranch require coordinated concrete installation that meets community design standards while supporting diverse housing types. Our work includes driveways, sidewalks, and community amenities that enhance neighborhood appeal and property values.
                   </p>
                   <p className="mt-4">
                     We coordinate with community developers, homeowner associations, and architectural review committees to ensure concrete installations complement community design themes while meeting long-term durability and maintenance requirements for growing neighborhoods.
@@ -189,17 +185,17 @@ export default function DublinConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Infrastructure Development</h4>
                   <p>
-                    Dublin's growth requires extensive infrastructure including roads, sidewalks, parking facilities, and public amenities. Our municipal and commercial concrete work supports city development goals while meeting strict performance requirements for traffic loads and long-term service life.
+                    Dublin&apos;s growth requires extensive infrastructure including roads, sidewalks, parking facilities, and public amenities. Our municipal and commercial concrete work supports city development goals while meeting strict performance requirements for traffic loads and long-term service life.
                   </p>
                   <p className="mt-4">
-                    We maintain relationships with Dublin's Public Works Department and coordinate with utility companies, traffic engineers, and environmental consultants to ensure infrastructure projects enhance community connectivity while minimizing construction disruption.
+                    We maintain relationships with Dublin&apos;s Public Works Department and coordinate with utility companies, traffic engineers, and environmental consultants to ensure infrastructure projects enhance community connectivity while minimizing construction disruption.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Family-Oriented Construction Approach</h3>
               <p>
-                Dublin's reputation as an exceptional family community influences our concrete construction approach, emphasizing safety, durability, and functionality for households with children. Our residential work prioritizes child-safe design features and low-maintenance solutions for busy families.
+                Dublin&apos;s reputation as an exceptional family community influences our concrete construction approach, emphasizing safety, durability, and functionality for households with children. Our residential work prioritizes child-safe design features and low-maintenance solutions for busy families.
               </p>
               
               <div className="bg-white rounded-lg p-6 shadow-md mb-8">
@@ -219,7 +215,7 @@ export default function DublinConcretePage() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🏘️ East Dublin</h4>
                   <p className="text-sm">
-                    Dublin's largest master-planned community featuring diverse housing types and excellent schools. Our residential work includes family driveways, backyard patios, and community amenities that support active family lifestyles while maintaining property values in this highly desirable area.
+                    Dublin&apos;s largest master-planned community featuring diverse housing types and excellent schools. Our residential work includes family driveways, backyard patios, and community amenities that support active family lifestyles while maintaining property values in this highly desirable area.
                   </p>
                 </div>
                 
@@ -240,14 +236,14 @@ export default function DublinConcretePage() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🏢 Commercial Districts</h4>
                   <p className="text-sm">
-                    Growing retail and office developments serving Dublin's expanding population. Our commercial concrete includes parking lots, sidewalks, and building entries that handle high traffic while maintaining attractive appearances that support business success and community economic development.
+                    Growing retail and office developments serving Dublin&apos;s expanding population. Our commercial concrete includes parking lots, sidewalks, and building entries that handle high traffic while maintaining attractive appearances that support business success and community economic development.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">School District Excellence Support</h3>
               <p>
-                Dublin's exceptional Dublin Unified School District attracts families from throughout the Bay Area, creating demand for residential concrete that supports family activities and enhances property values. Our work includes basketball court installations, patio expansions for entertaining, and driveway upgrades that accommodate multiple vehicles.
+                Dublin&apos;s exceptional Dublin Unified School District attracts families from throughout the Bay Area, creating demand for residential concrete that supports family activities and enhances property values. Our work includes basketball court installations, patio expansions for entertaining, and driveway upgrades that accommodate multiple vehicles.
               </p>
               
               <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
@@ -263,34 +259,34 @@ export default function DublinConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Tri-Valley Climate Optimization</h3>
               <p>
-                Dublin's inland Tri-Valley location experiences hot, dry summers and mild winters requiring concrete installations designed for temperature extremes and UV exposure. Our construction techniques account for thermal expansion, seasonal moisture changes, and long-term durability in challenging climate conditions.
+                Dublin&apos;s inland Tri-Valley location experiences hot, dry summers and mild winters requiring concrete installations designed for temperature extremes and UV exposure. Our construction techniques account for thermal expansion, seasonal moisture changes, and long-term durability in challenging climate conditions.
               </p>
               <p>
-                We utilize heat-resistant concrete mixes, UV-stable colorants, and specialized curing procedures that ensure optimal performance throughout Dublin's seasonal climate variations while maintaining appearance and structural integrity for decades of family use.
+                We utilize heat-resistant concrete mixes, UV-stable colorants, and specialized curing procedures that ensure optimal performance throughout Dublin&apos;s seasonal climate variations while maintaining appearance and structural integrity for decades of family use.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Transportation Connectivity Benefits</h3>
               <p>
-                Dublin's BART connectivity and freeway access make it attractive to Bay Area commuters, increasing property values and development pressure. Our concrete work supports this connectivity with durable installations that handle increased vehicle traffic while maintaining neighborhood character.
+                Dublin&apos;s BART connectivity and freeway access make it attractive to Bay Area commuters, increasing property values and development pressure. Our concrete work supports this connectivity with durable installations that handle increased vehicle traffic while maintaining neighborhood character.
               </p>
               <p>
-                We coordinate with Dublin's transportation planning to ensure residential and commercial concrete projects support community connectivity goals while minimizing traffic impacts during construction and providing long-term durability for increased usage patterns.
+                We coordinate with Dublin&apos;s transportation planning to ensure residential and commercial concrete projects support community connectivity goals while minimizing traffic impacts during construction and providing long-term durability for increased usage patterns.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Sustainable Development Integration</h3>
               <p>
-                Dublin's commitment to sustainable growth influences concrete construction through green building requirements, storm water management, and energy efficiency standards. Our installations incorporate sustainable practices that support community environmental goals while providing superior performance.
+                Dublin&apos;s commitment to sustainable growth influences concrete construction through green building requirements, storm water management, and energy efficiency standards. Our installations incorporate sustainable practices that support community environmental goals while providing superior performance.
               </p>
               <p>
-                We utilize recycled aggregates, pervious concrete systems for storm water management, and construction techniques that minimize environmental impact while supporting Dublin's long-term sustainability and livability goals for current and future residents.
+                We utilize recycled aggregates, pervious concrete systems for storm water management, and construction techniques that minimize environmental impact while supporting Dublin&apos;s long-term sustainability and livability goals for current and future residents.
               </p>
 
               <h3 className="text-2xl font-semibent text-slate-800 mb-6">Community Partnership & Local Investment</h3>
               <p>
-                Wade & Co. Construction supports Dublin's continued growth through active community involvement, local hiring, and partnerships with Dublin-area suppliers and subcontractors. Our investment in Dublin's success includes sponsoring community events and supporting local schools and recreational programs.
+                Wade &amp; Co. Construction supports Dublin&apos;s continued growth through active community involvement, local hiring, and partnerships with Dublin-area suppliers and subcontractors. Our investment in Dublin&apos;s success includes sponsoring community events and supporting local schools and recreational programs.
               </p>
               <p>
-                Our Dublin partnerships include relationships with local real estate professionals, architects, landscape contractors, and community organizations that share our commitment to enhancing Dublin's reputation as an exceptional place to live, work, and raise families.
+                Our Dublin partnerships include relationships with local real estate professionals, architects, landscape contractors, and community organizations that share our commitment to enhancing Dublin&apos;s reputation as an exceptional place to live, work, and raise families.
               </p>
             </div>
           </div>
@@ -311,7 +307,7 @@ export default function DublinConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Perfect family-friendly patio and driveway installation in East Dublin. Wade & Co. understood our needs with three young kids and created safe, durable surfaces that our whole neighborhood admires. Great work!"
+                  &quot;Perfect family-friendly patio and driveway installation in East Dublin. Wade &amp; Co. understood our needs with three young kids and created safe, durable surfaces that our whole neighborhood admires. Great work!&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Jennifer Kim</p>
@@ -328,7 +324,7 @@ export default function DublinConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Excellent commercial concrete work for our Positano retail center. They handled the project professionally with minimal disruption to surrounding businesses. Quality work that enhances our property's appeal."
+                  &quot;Excellent commercial concrete work for our Positano retail center. They handled the project professionally with minimal disruption to surrounding businesses. Quality work that enhances our property&apos;s appeal.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Mike Anderson</p>
@@ -345,7 +341,7 @@ export default function DublinConcretePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready for Your Dublin Concrete Project?</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Contact Dublin's family-focused concrete contractors for new construction, residential upgrades, and commercial development throughout the Tri-Valley.
+            Contact Dublin&apos;s family-focused concrete contractors for new construction, residential upgrades, and commercial development throughout the Tri-Valley.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

@@ -4,16 +4,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   MapPin,
   Star,
   Home,
   Building,
-  Shield,
-  Zap,
-  Users,
   Calendar,
   Factory
 } from "lucide-react"
@@ -61,7 +57,7 @@ export default function FremontConcretePage() {
                 <span className="text-blue-600"> Commercial & Residential Experts</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Comprehensive concrete construction services throughout Fremont including Ardenwood, Centerville, Niles, Warm Springs, and Mission San Jose. Specialized in commercial concrete, industrial facilities, residential construction, and seismic retrofitting with expertise in Fremont's diverse soil conditions, tech industry requirements, and family-focused community development.
+                Comprehensive concrete construction services throughout Fremont including Ardenwood, Centerville, Niles, Warm Springs, and Mission San Jose. Specialized in commercial concrete, industrial facilities, residential construction, and seismic retrofitting with expertise in Fremont&apos;s diverse soil conditions, tech industry requirements, and family-focused community development.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -106,7 +102,7 @@ export default function FremontConcretePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-slate-800 mb-4 text-center">Fremont Areas We Serve</h2>
           <p className="text-center text-slate-600 mb-12 max-w-3xl mx-auto">
-            Complete concrete services throughout Fremont's diverse communities with expertise in commercial, residential, and industrial construction.
+            Complete concrete services throughout Fremont&apos;s diverse communities with expertise in commercial, residential, and industrial construction.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -135,21 +131,21 @@ export default function FremontConcretePage() {
               <CardContent className="p-8 text-center">
                 <Factory className="w-12 h-12 text-blue-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Industrial Concrete</h3>
-                <p className="text-slate-600">Heavy-duty concrete for Fremont's tech manufacturing, warehouses, and industrial facilities with specialized load requirements.</p>
+                <p className="text-slate-600">Heavy-duty concrete for Fremont&apos;s tech manufacturing, warehouses, and industrial facilities with specialized load requirements.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <Building className="w-12 h-12 text-blue-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Commercial Development</h3>
-                <p className="text-slate-600">Large-scale concrete work for Fremont's growing commercial districts and mixed-use developments.</p>
+                <p className="text-slate-600">Large-scale concrete work for Fremont&apos;s growing commercial districts and mixed-use developments.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <Home className="w-12 h-12 text-blue-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Family-Focused Residential</h3>
-                <p className="text-slate-600">Safe, durable concrete solutions for Fremont's family neighborhoods including driveways, patios, and play areas.</p>
+                <p className="text-slate-600">Safe, durable concrete solutions for Fremont&apos;s family neighborhoods including driveways, patios, and play areas.</p>
               </CardContent>
             </Card>
           </div>
@@ -164,7 +160,7 @@ export default function FremontConcretePage() {
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Fremont's unique position as a tech industry hub and family-oriented community creates diverse concrete construction requirements. Wade & Co. Construction serves Fremont's dual identity with expertise in high-tech industrial facilities, family-friendly residential projects, and commercial developments that support the city's continued growth as a major Bay Area employment center and desirable residential community.
+                Fremont&apos;s unique position as a tech industry hub and family-oriented community creates diverse concrete construction requirements. Wade & Co. Construction serves Fremont&apos;s dual identity with expertise in high-tech industrial facilities, family-friendly residential projects, and commercial developments that support the city&apos;s continued growth as a major Bay Area employment center and desirable residential community.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Fremont Industrial Expertise</h3>
@@ -179,7 +175,7 @@ export default function FremontConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">High-Tech Facility Requirements</h4>
                   <p>
-                    Fremont's manufacturing facilities require concrete installations with exceptional flatness, vibration control, and chemical resistance. Our industrial concrete work includes specialized aggregate systems, vapor barriers, and surface treatments that meet cleanroom standards and precision manufacturing requirements.
+                    Fremont&apos;s manufacturing facilities require concrete installations with exceptional flatness, vibration control, and chemical resistance. Our industrial concrete work includes specialized aggregate systems, vapor barriers, and surface treatments that meet cleanroom standards and precision manufacturing requirements.
                   </p>
                   <p className="mt-4">
                     We coordinate with facility engineers, equipment manufacturers, and environmental consultants to ensure concrete installations support sophisticated manufacturing processes while meeting environmental and safety regulations specific to high-tech production facilities.
@@ -189,17 +185,17 @@ export default function FremontConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Warehouse & Distribution Centers</h4>
                   <p>
-                    Fremont's strategic location drives demand for large-scale warehouse and distribution facilities requiring heavy-duty concrete floors, loading docks, and truck courts. Our commercial concrete work handles high traffic loads while providing long-term durability and minimal maintenance requirements.
+                    Fremont&apos;s strategic location drives demand for large-scale warehouse and distribution facilities requiring heavy-duty concrete floors, loading docks, and truck courts. Our commercial concrete work handles high traffic loads while providing long-term durability and minimal maintenance requirements.
                   </p>
                   <p className="mt-4">
-                    We utilize advanced concrete mixes, joint systems, and surface treatments designed for forklift traffic, heavy storage loads, and 24/7 operations common in Fremont's logistics and distribution industry. All work meets current ACI standards for industrial concrete construction.
+                    We utilize advanced concrete mixes, joint systems, and surface treatments designed for forklift traffic, heavy storage loads, and 24/7 operations common in Fremont&apos;s logistics and distribution industry. All work meets current ACI standards for industrial concrete construction.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Family-Oriented Residential Services</h3>
               <p>
-                Fremont's reputation as an excellent family community drives demand for safe, durable residential concrete installations. Our residential work emphasizes child safety, long-term durability, and aesthetic appeal that enhances property values in Fremont's competitive real estate market.
+                Fremont&apos;s reputation as an excellent family community drives demand for safe, durable residential concrete installations. Our residential work emphasizes child safety, long-term durability, and aesthetic appeal that enhances property values in Fremont&apos;s competitive real estate market.
               </p>
               
               <div className="bg-white rounded-lg p-6 shadow-md mb-8">
@@ -226,7 +222,7 @@ export default function FremontConcretePage() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🌳 Ardenwood</h4>
                   <p className="text-sm">
-                    Established family neighborhood near Ardenwood Regional Preserve. Our residential concrete work emphasizes environmental integration, natural aesthetics, and installations that support outdoor recreation and family activities while preserving the area's natural character.
+                    Established family neighborhood near Ardenwood Regional Preserve. Our residential concrete work emphasizes environmental integration, natural aesthetics, and installations that support outdoor recreation and family activities while preserving the area&apos;s natural character.
                   </p>
                 </div>
                 
@@ -240,14 +236,14 @@ export default function FremontConcretePage() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🏭 Pacific Commons</h4>
                   <p className="text-sm">
-                    Major commercial and retail district requiring heavy-duty concrete for parking structures, retail spaces, and mixed-use developments. Our commercial work handles high traffic loads while providing attractive surfaces that support Fremont's economic development goals.
+                    Major commercial and retail district requiring heavy-duty concrete for parking structures, retail spaces, and mixed-use developments. Our commercial work handles high traffic loads while providing attractive surfaces that support Fremont&apos;s economic development goals.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Fremont Soil Conditions & Construction Challenges</h3>
               <p>
-                Fremont's location in the San Francisco Bay's alluvial plain creates diverse soil conditions from bay mud near the shoreline to stable soils in the foothills. Our concrete work addresses these varying conditions with site-specific foundation design and soil stabilization techniques.
+                Fremont&apos;s location in the San Francisco Bay&apos;s alluvial plain creates diverse soil conditions from bay mud near the shoreline to stable soils in the foothills. Our concrete work addresses these varying conditions with site-specific foundation design and soil stabilization techniques.
               </p>
               
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
@@ -263,26 +259,26 @@ export default function FremontConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Commercial Development Support</h3>
               <p>
-                Fremont's economic growth drives continuous commercial development including retail centers, office buildings, and mixed-use projects. Our commercial concrete work supports the city's economic development goals while meeting strict performance requirements for durability and aesthetics.
+                Fremont&apos;s economic growth drives continuous commercial development including retail centers, office buildings, and mixed-use projects. Our commercial concrete work supports the city&apos;s economic development goals while meeting strict performance requirements for durability and aesthetics.
               </p>
               <p>
-                We coordinate with Fremont's Economic Development Department, planning staff, and community organizations to ensure commercial concrete projects enhance neighborhood character while supporting business development and job creation throughout the city.
+                We coordinate with Fremont&apos;s Economic Development Department, planning staff, and community organizations to ensure commercial concrete projects enhance neighborhood character while supporting business development and job creation throughout the city.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Fremont Seismic Safety & Building Codes</h3>
               <p>
-                Fremont's location near multiple fault systems requires comprehensive seismic design for all concrete construction. We implement current seismic design standards while coordinating with Fremont's Building Division for efficient permitting and inspection processes.
+                Fremont&apos;s location near multiple fault systems requires comprehensive seismic design for all concrete construction. We implement current seismic design standards while coordinating with Fremont&apos;s Building Division for efficient permitting and inspection processes.
               </p>
               <p>
-                Our seismic safety work includes foundation retrofitting for older buildings, new construction designed for earthquake resistance, and emergency response capabilities for post-earthquake damage assessment and repair throughout Fremont's residential and commercial districts.
+                Our seismic safety work includes foundation retrofitting for older buildings, new construction designed for earthquake resistance, and emergency response capabilities for post-earthquake damage assessment and repair throughout Fremont&apos;s residential and commercial districts.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Environmental Stewardship</h3>
               <p>
-                Fremont's commitment to environmental sustainability influences all our concrete projects through sustainable material usage, construction waste reduction, and storm water management compliance. We implement green building practices that support Fremont's climate action goals.
+                Fremont&apos;s commitment to environmental sustainability influences all our concrete projects through sustainable material usage, construction waste reduction, and storm water management compliance. We implement green building practices that support Fremont&apos;s climate action goals.
               </p>
               <p>
-                Our environmental practices include local material sourcing, recycled aggregate usage, and construction methods that minimize environmental impact while providing superior performance and durability for Fremont's diverse construction requirements.
+                Our environmental practices include local material sourcing, recycled aggregate usage, and construction methods that minimize environmental impact while providing superior performance and durability for Fremont&apos;s diverse construction requirements.
               </p>
             </div>
           </div>
@@ -303,7 +299,7 @@ export default function FremontConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Excellent commercial concrete work for our Warm Springs facility. Wade & Co. understood our manufacturing requirements and delivered precision floors that meet our strict tolerances. Professional project management throughout."
+                  &quot;Excellent commercial concrete work for our Warm Springs facility. Wade &amp; Co. understood our manufacturing requirements and delivered precision floors that meet our strict tolerances. Professional project management throughout.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">James Park</p>
@@ -320,7 +316,7 @@ export default function FremontConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Outstanding family-friendly patio and driveway work in Ardenwood. They understood our needs with young children and created safe, beautiful surfaces that our whole family enjoys. Highly recommend!"
+                  &quot;Outstanding family-friendly patio and driveway work in Ardenwood. They understood our needs with young children and created safe, beautiful surfaces that our whole family enjoys. Highly recommend!&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Maria Rodriguez</p>
@@ -337,7 +333,7 @@ export default function FremontConcretePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready for Your Fremont Concrete Project?</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Contact Fremont's concrete specialists for commercial, industrial, and residential construction throughout all Fremont neighborhoods.
+            Contact Fremont&apos;s concrete specialists for commercial, industrial, and residential construction throughout all Fremont neighborhoods.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

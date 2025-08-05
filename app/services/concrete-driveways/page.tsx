@@ -4,12 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
-  Star, 
-  Clock,
-  Shield,
-  Award,
+  FileText,
   ArrowLeft,
   Truck,
   Home,
@@ -129,7 +124,7 @@ export default function ConcreteDrivewaysPage() {
                     Every concrete driveway project begins with comprehensive site evaluation specific to Bay Area conditions. We assess soil composition, drainage patterns, and existing infrastructure to design optimal solutions. In areas like Fremont and Hayward with expansive clay soils, we implement specialized base preparation and moisture control systems.
                   </p>
                   <p className="mt-4">
-                    Our team coordinates with local building departments for permit requirements and utility companies for underground service locations. We understand the specific requirements of each municipality, from Oakland's hillside construction challenges to San Jose's strict stormwater management ordinances.
+                    Our team coordinates with local building departments for permit requirements and utility companies for underground service locations. We understand the specific requirements of each municipality, from Oakland&apos;s hillside construction challenges to San Jose&apos;s strict stormwater management ordinances.
                   </p>
                 </div>
                 

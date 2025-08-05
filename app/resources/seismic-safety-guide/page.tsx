@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   AlertTriangle,
@@ -456,7 +455,7 @@ export default function SeismicSafetyGuidePage() {
                   <li><strong>Research Financial Incentives:</strong> Investigate grants, loans, and insurance discounts available in your area</li>
                   <li><strong>Obtain Multiple Quotes:</strong> Compare contractors specializing in seismic retrofitting</li>
                   <li><strong>Plan for Permits:</strong> Many retrofits require building permits and inspections</li>
-                  <li><strong>Schedule Work Promptly:</strong> Don't delay - earthquakes don't wait for convenient timing</li>
+                  <li><strong>Schedule Work Promptly:</strong> Don&apos;t delay - earthquakes don&apos;t wait for convenient timing</li>
                   <li><strong>Update Emergency Plans:</strong> Develop family emergency response and communication plans</li>
                   <li><strong>Review Insurance Coverage:</strong> Ensure adequate earthquake insurance coverage for your property</li>
                 </ol>
@@ -469,7 +468,7 @@ export default function SeismicSafetyGuidePage() {
       {/* CTA Section */}
       <section className="py-16 bg-red-600">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Don't Wait for the Next Earthquake</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Don&apos;t Wait for the Next Earthquake</h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
             Protect your family and property with professional seismic assessment and retrofitting. Contact Wade & Co. Construction for comprehensive earthquake safety evaluation.
           </p>

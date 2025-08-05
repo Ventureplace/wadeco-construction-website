@@ -4,13 +4,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
   ArrowLeft,
   Waves,
   Sun,
   Palette,
-  Shield
+  Shield,
+  FileText
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -127,7 +126,7 @@ export default function PoolDecksPatiosPage() {
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Bay Area homeowners invest significantly in outdoor living spaces, and concrete pool decks and patios provide the perfect foundation for year-round enjoyment. Wade & Co. Construction specializes in creating beautiful, functional outdoor concrete surfaces that withstand the region's diverse climate conditions while enhancing property value and lifestyle quality.
+                Bay Area homeowners invest significantly in outdoor living spaces, and concrete pool decks and patios provide the perfect foundation for year-round enjoyment. Wade & Co. Construction specializes in creating beautiful, functional outdoor concrete surfaces that withstand the region&apos;s diverse climate conditions while enhancing property value and lifestyle quality.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Pool Deck Safety & Design</h3>
@@ -148,14 +147,14 @@ export default function PoolDecksPatiosPage() {
                     Bay Area pool decks must withstand temperature variations from coastal fog in Berkeley and Oakland to intense summer heat in Tri-Valley locations like Pleasanton and Livermore. We adjust concrete mix designs, curing procedures, and joint placement to accommodate thermal expansion and contraction.
                   </p>
                   <p className="mt-4">
-                    UV-resistant sealers and color-stable pigments ensure long-term appearance retention in California's intense sunlight. We recommend maintenance schedules specific to each location's environmental conditions and usage patterns.
+                    UV-resistant sealers and color-stable pigments ensure long-term appearance retention in California&apos;s intense sunlight. We recommend maintenance schedules specific to each location&apos;s environmental conditions and usage patterns.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Decorative Concrete Options</h3>
               <p>
-                Our decorative concrete options transform ordinary pool decks and patios into stunning outdoor features that complement your home's architecture and landscape design. Popular Bay Area applications include:
+                Our decorative concrete options transform ordinary pool decks and patios into stunning outdoor features that complement your home&apos;s architecture and landscape design. Popular Bay Area applications include:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -183,7 +182,7 @@ export default function PoolDecksPatiosPage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Patio Design & Construction</h3>
               <p>
-                Concrete patios in the Bay Area serve as outdoor rooms for entertaining, dining, and relaxation. Our designs incorporate multiple functional zones, integrated landscaping connections, and architectural details that extend your home's living space into the outdoors.
+                Concrete patios in the Bay Area serve as outdoor rooms for entertaining, dining, and relaxation. Our designs incorporate multiple functional zones, integrated landscaping connections, and architectural details that extend your home&apos;s living space into the outdoors.
               </p>
               <p>
                 We coordinate with landscape architects, pool contractors, and outdoor kitchen designers to create cohesive outdoor environments. Our patio construction includes proper base preparation, reinforcement systems, and control joint placement that prevents cracking and settling over time.

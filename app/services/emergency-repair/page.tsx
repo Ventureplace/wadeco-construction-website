@@ -4,8 +4,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
-  CheckCircle, 
   ArrowLeft,
   AlertTriangle,
   Clock,
@@ -197,7 +195,7 @@ export default function EmergencyRepairPage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Bay Area Emergency Scenarios</h3>
               <p>
-                Bay Area concrete emergencies often result from the region's unique geological and environmental conditions. Earthquake damage is a primary concern, with concrete structures experiencing cracking, settlement, and structural displacement during seismic events. Our emergency teams are trained in seismic damage assessment and specialized earthquake repair techniques.
+                Bay Area concrete emergencies often result from the region&apos;s unique geological and environmental conditions. Earthquake damage is a primary concern, with concrete structures experiencing cracking, settlement, and structural displacement during seismic events. Our emergency teams are trained in seismic damage assessment and specialized earthquake repair techniques.
               </p>
               <p>
                 Expansive clay soils common throughout Oakland, Berkeley, and East Bay locations can cause sudden concrete failure during seasonal moisture changes. Winter rainfall can trigger rapid soil expansion, causing concrete driveways, sidewalks, and foundations to crack or heave unexpectedly, creating immediate safety hazards.
@@ -287,7 +285,7 @@ export default function EmergencyRepairPage() {
       {/* CTA Section */}
       <section className="py-16 bg-red-600">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Don't Wait - Get Emergency Help Now</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Don&apos;t Wait - Get Emergency Help Now</h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
             When concrete emergencies threaten safety or property, Wade & Co. Construction provides immediate professional response throughout the Bay Area.
           </p>

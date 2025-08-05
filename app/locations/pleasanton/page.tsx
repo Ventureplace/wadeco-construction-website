@@ -4,16 +4,11 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
-  FileText, 
   CheckCircle, 
   ArrowLeft,
   MapPin,
   Star,
-  Home,
   Building,
-  Shield,
-  Zap,
-  Users,
   Calendar,
   Palmtree
 } from "lucide-react"
@@ -61,7 +56,7 @@ export default function PleasantonConcretePage() {
                 <span className="text-green-600"> Luxury Home Specialists</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Premium concrete construction services throughout Pleasanton including Ruby Hill, Birdland, Vintage Hills, and downtown Pleasanton. Specialized in luxury residential construction, decorative concrete, outdoor living spaces, and high-end commercial projects with expertise in Pleasanton's upscale community standards and Mediterranean-inspired architecture.
+                Premium concrete construction services throughout Pleasanton including Ruby Hill, Birdland, Vintage Hills, and downtown Pleasanton. Specialized in luxury residential construction, decorative concrete, outdoor living spaces, and high-end commercial projects with expertise in Pleasanton&apos;s upscale community standards and Mediterranean-inspired architecture.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -106,7 +101,7 @@ export default function PleasantonConcretePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-slate-800 mb-4 text-center">Pleasanton Communities We Serve</h2>
           <p className="text-center text-slate-600 mb-12 max-w-3xl mx-auto">
-            Premium concrete services throughout Pleasanton's prestigious neighborhoods with expertise in luxury residential and high-end commercial construction.
+            Premium concrete services throughout Pleasanton&apos;s prestigious neighborhoods with expertise in luxury residential and high-end commercial construction.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -135,21 +130,21 @@ export default function PleasantonConcretePage() {
               <CardContent className="p-8 text-center">
                 <Palmtree className="w-12 h-12 text-green-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Luxury Outdoor Living</h3>
-                <p className="text-slate-600">Premium pool decks, outdoor kitchens, and entertainment areas designed for Pleasanton's year-round outdoor lifestyle.</p>
+                <p className="text-slate-600">Premium pool decks, outdoor kitchens, and entertainment areas designed for Pleasanton&apos;s year-round outdoor lifestyle.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <Star className="w-12 h-12 text-green-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">Decorative Concrete</h3>
-                <p className="text-slate-600">Stamped concrete, stained finishes, and custom designs that complement Pleasanton's Mediterranean architecture.</p>
+                <p className="text-slate-600">Stamped concrete, stained finishes, and custom designs that complement Pleasanton&apos;s Mediterranean architecture.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <Building className="w-12 h-12 text-green-600 mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">High-End Commercial</h3>
-                <p className="text-slate-600">Premium commercial concrete for Pleasanton's upscale retail, office, and hospitality developments.</p>
+                <p className="text-slate-600">Premium commercial concrete for Pleasanton&apos;s upscale retail, office, and hospitality developments.</p>
               </CardContent>
             </Card>
           </div>
@@ -164,14 +159,14 @@ export default function PleasantonConcretePage() {
             
             <div className="prose prose-lg max-w-none text-slate-600 space-y-8">
               <p className="text-xl leading-relaxed">
-                Pleasanton's reputation as one of California's most desirable communities demands concrete construction that meets the highest standards of quality, aesthetics, and durability. Wade & Co. Construction specializes in luxury residential projects, upscale commercial developments, and premium outdoor living spaces that enhance property values and complement Pleasanton's Mediterranean-inspired architecture and sophisticated community character.
+                Pleasanton&apos;s reputation as one of California&apos;s most desirable communities demands concrete construction that meets the highest standards of quality, aesthetics, and durability. Wade & Co. Construction specializes in luxury residential projects, upscale commercial developments, and premium outdoor living spaces that enhance property values and complement Pleasanton&apos;s Mediterranean-inspired architecture and sophisticated community character.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Luxury Residential Excellence</h3>
               <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
                 <h4 className="font-semibold text-green-800 mb-3">🏡 Premium Home Standards</h4>
                 <p className="text-green-700">
-                  Pleasanton's luxury home market requires concrete installations that match sophisticated architectural standards and high property values. Our residential work emphasizes craftsmanship, attention to detail, and materials selection that enhance long-term value and aesthetic appeal for discerning homeowners.
+                  Pleasanton&apos;s luxury home market requires concrete installations that match sophisticated architectural standards and high property values. Our residential work emphasizes craftsmanship, attention to detail, and materials selection that enhance long-term value and aesthetic appeal for discerning homeowners.
                 </p>
               </div>
               
@@ -179,27 +174,27 @@ export default function PleasantonConcretePage() {
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Outdoor Living Specialists</h4>
                   <p>
-                    Pleasanton's Mediterranean climate and luxury home market create demand for exceptional outdoor living spaces. Our specialty includes custom pool decks, outdoor kitchens, entertainment areas, and decorative concrete installations that create resort-quality outdoor environments for year-round enjoyment.
+                    Pleasanton&apos;s Mediterranean climate and luxury home market create demand for exceptional outdoor living spaces. Our specialty includes custom pool decks, outdoor kitchens, entertainment areas, and decorative concrete installations that create resort-quality outdoor environments for year-round enjoyment.
                   </p>
                   <p className="mt-4">
-                    We coordinate with landscape architects, pool contractors, and outdoor kitchen designers to create integrated outdoor environments that maximize property values while providing exceptional functionality and aesthetic appeal. All installations emphasize quality materials and craftsmanship that meets Pleasanton homeowners' expectations.
+                    We coordinate with landscape architects, pool contractors, and outdoor kitchen designers to create integrated outdoor environments that maximize property values while providing exceptional functionality and aesthetic appeal. All installations emphasize quality materials and craftsmanship that meets Pleasanton homeowners&apos; expectations.
                   </p>
                 </div>
                 
                 <div>
                   <h4 className="text-xl font-semibold text-slate-800 mb-4">Mediterranean Architecture Integration</h4>
                   <p>
-                    Pleasanton's Mediterranean and Spanish Colonial Revival architecture requires concrete work that complements established design themes. Our decorative concrete options include earth-tone integral colors, natural stone textures, and custom stamped patterns that enhance architectural authenticity.
+                    Pleasanton&apos;s Mediterranean and Spanish Colonial Revival architecture requires concrete work that complements established design themes. Our decorative concrete options include earth-tone integral colors, natural stone textures, and custom stamped patterns that enhance architectural authenticity.
                   </p>
                   <p className="mt-4">
-                    We utilize specialized techniques including acid staining, exposed aggregate finishes, and hand-carved details that create authentic Mediterranean aesthetics while providing modern performance and durability suitable for Pleasanton's premium property market.
+                    We utilize specialized techniques including acid staining, exposed aggregate finishes, and hand-carved details that create authentic Mediterranean aesthetics while providing modern performance and durability suitable for Pleasanton&apos;s premium property market.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Tri-Valley Climate Considerations</h3>
               <p>
-                Pleasanton's inland climate with hot, dry summers and mild winters requires concrete installations designed for temperature extremes and seasonal variations. Our concrete mixes and installation techniques account for thermal expansion, UV exposure, and occasional temperature fluctuations.
+                Pleasanton&apos;s inland climate with hot, dry summers and mild winters requires concrete installations designed for temperature extremes and seasonal variations. Our concrete mixes and installation techniques account for thermal expansion, UV exposure, and occasional temperature fluctuations.
               </p>
               
               <div className="bg-white rounded-lg p-6 shadow-md mb-8">
@@ -219,7 +214,7 @@ export default function PleasantonConcretePage() {
                 <div className="bg-green-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">💎 Ruby Hill</h4>
                   <p className="text-sm">
-                    Pleasanton's most prestigious neighborhood featuring luxury homes with golf course views. Our work includes high-end driveways, custom outdoor entertainment areas, and premium pool deck installations that complement the area's exclusive character and property values exceeding $2 million.
+                    Pleasanton&apos;s most prestigious neighborhood featuring luxury homes with golf course views. Our work includes high-end driveways, custom outdoor entertainment areas, and premium pool deck installations that complement the area&apos;s exclusive character and property values exceeding $2 million.
                   </p>
                 </div>
                 
@@ -233,21 +228,21 @@ export default function PleasantonConcretePage() {
                 <div className="bg-green-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🛍️ Downtown Pleasanton</h4>
                   <p className="text-sm">
-                    Historic downtown district with upscale retail, dining, and mixed-use developments. Our commercial work includes decorative sidewalks, plaza installations, and retail concrete that supports Pleasanton's economic vitality while maintaining historic character and pedestrian-friendly environments.
+                    Historic downtown district with upscale retail, dining, and mixed-use developments. Our commercial work includes decorative sidewalks, plaza installations, and retail concrete that supports Pleasanton&apos;s economic vitality while maintaining historic character and pedestrian-friendly environments.
                   </p>
                 </div>
                 
                 <div className="bg-green-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-slate-800 mb-3">🏢 Hacienda Business Park</h4>
                   <p className="text-sm">
-                    Major employment center and corporate campus requiring high-quality commercial concrete. Our work includes corporate plazas, parking structures, and office building entries that reflect Pleasanton's professional business environment and support the area's economic development goals.
+                    Major employment center and corporate campus requiring high-quality commercial concrete. Our work includes corporate plazas, parking structures, and office building entries that reflect Pleasanton&apos;s professional business environment and support the area&apos;s economic development goals.
                   </p>
                 </div>
               </div>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Premium Materials & Craftsmanship</h3>
               <p>
-                Pleasanton's luxury market demands superior materials and exceptional craftsmanship in all concrete installations. We source premium aggregates, utilize high-performance concrete mixes, and employ advanced finishing techniques that ensure long-term durability and aesthetic excellence.
+                Pleasanton&apos;s luxury market demands superior materials and exceptional craftsmanship in all concrete installations. We source premium aggregates, utilize high-performance concrete mixes, and employ advanced finishing techniques that ensure long-term durability and aesthetic excellence.
               </p>
               
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
@@ -263,26 +258,26 @@ export default function PleasantonConcretePage() {
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Commercial Excellence Standards</h3>
               <p>
-                Pleasanton's upscale commercial developments require concrete installations that reflect the community's high standards and support business success. Our commercial work includes retail centers, office complexes, and hospitality projects that enhance Pleasanton's economic vitality.
+                Pleasanton&apos;s upscale commercial developments require concrete installations that reflect the community&apos;s high standards and support business success. Our commercial work includes retail centers, office complexes, and hospitality projects that enhance Pleasanton&apos;s economic vitality.
               </p>
               <p>
-                We coordinate with Pleasanton's Economic Development Department, architectural firms, and property developers to ensure commercial concrete projects contribute to community goals while meeting strict performance requirements for durability, safety, and aesthetic appeal.
+                We coordinate with Pleasanton&apos;s Economic Development Department, architectural firms, and property developers to ensure commercial concrete projects contribute to community goals while meeting strict performance requirements for durability, safety, and aesthetic appeal.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Property Value Enhancement</h3>
               <p>
-                Professional concrete installation significantly impacts property values in Pleasanton's competitive real estate market. Our work emphasizes quality, durability, and aesthetic appeal that enhance marketability and provide strong return on investment for both residential and commercial properties.
+                Professional concrete installation significantly impacts property values in Pleasanton&apos;s competitive real estate market. Our work emphasizes quality, durability, and aesthetic appeal that enhance marketability and provide strong return on investment for both residential and commercial properties.
               </p>
               <p>
-                Real estate professionals consistently report that quality concrete work increases property appeal and sale prices in Pleasanton's luxury market. We provide documentation, warranties, and maintenance programs that transfer value to new owners and support long-term property appreciation.
+                Real estate professionals consistently report that quality concrete work increases property appeal and sale prices in Pleasanton&apos;s luxury market. We provide documentation, warranties, and maintenance programs that transfer value to new owners and support long-term property appreciation.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Community Involvement & Local Partnerships</h3>
               <p>
-                Wade & Co. Construction actively supports Pleasanton's community through local partnerships, charitable involvement, and participation in community development initiatives. We source materials locally when possible and employ local craftsmen who understand Pleasanton's quality expectations.
+                Wade & Co. Construction actively supports Pleasanton&apos;s community through local partnerships, charitable involvement, and participation in community development initiatives. We source materials locally when possible and employ local craftsmen who understand Pleasanton&apos;s quality expectations.
               </p>
               <p>
-                Our local partnerships include relationships with Pleasanton's leading architects, landscape architects, and specialty contractors who share our commitment to quality and customer satisfaction. These collaborative relationships ensure comprehensive project delivery that exceeds client expectations.
+                Our local partnerships include relationships with Pleasanton&apos;s leading architects, landscape architects, and specialty contractors who share our commitment to quality and customer satisfaction. These collaborative relationships ensure comprehensive project delivery that exceeds client expectations.
               </p>
 
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Maintenance & Long-Term Service</h3>
@@ -290,7 +285,7 @@ export default function PleasantonConcretePage() {
                 Luxury concrete installations require ongoing maintenance to preserve appearance and performance. We provide comprehensive maintenance programs including periodic cleaning, sealer reapplication, and minor repairs that preserve investment value and extend service life.
               </p>
               <p>
-                Our maintenance services are specifically designed for Pleasanton's climate and usage patterns, with scheduling and procedures that minimize disruption to busy family schedules while ensuring optimal concrete performance and appearance throughout changing seasons.
+                Our maintenance services are specifically designed for Pleasanton&apos;s climate and usage patterns, with scheduling and procedures that minimize disruption to busy family schedules while ensuring optimal concrete performance and appearance throughout changing seasons.
               </p>
             </div>
           </div>
@@ -311,7 +306,7 @@ export default function PleasantonConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Exceptional luxury pool deck and outdoor kitchen installation in Ruby Hill. Wade & Co. delivered exactly the resort-quality outdoor space we envisioned. Attention to detail and craftsmanship exceeded our high expectations."
+                  &quot;Exceptional luxury pool deck and outdoor kitchen installation in Ruby Hill. Wade &amp; Co. delivered exactly the resort-quality outdoor space we envisioned. Attention to detail and craftsmanship exceeded our high expectations.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Robert Thompson</p>
@@ -328,7 +323,7 @@ export default function PleasantonConcretePage() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                  "Beautiful decorative concrete driveway and front entry work in Vintage Hills. They perfectly matched our home's Mediterranean style and the quality is outstanding. Professional service from start to finish."
+                  &quot;Beautiful decorative concrete driveway and front entry work in Vintage Hills. They perfectly matched our home&apos;s Mediterranean style and the quality is outstanding. Professional service from start to finish.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-slate-800">Linda Chen</p>
@@ -345,7 +340,7 @@ export default function PleasantonConcretePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready for Your Pleasanton Luxury Project?</h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Contact Pleasanton's premier concrete contractors for luxury residential and high-end commercial construction throughout the Tri-Valley.
+            Contact Pleasanton&apos;s premier concrete contractors for luxury residential and high-end commercial construction throughout the Tri-Valley.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

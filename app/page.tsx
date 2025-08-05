@@ -35,7 +35,7 @@ export default function ConcretePage() {
     "telephone": "(925) 503-3200",
     "email": "wadeconcreteco@gmail.com",
     "foundingDate": "2008",
-    "slogan": "Bay Area's Premier Concrete Specialists",
+    "slogan": "Bay Area&apos;s Premier Concrete Specialists",
     "address": {
       "@type": "PostalAddress",
       "addressRegion": "CA",
@@ -596,7 +596,7 @@ export default function ConcretePage() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight">
-                  Bay Area's Premier
+                  Bay Area&apos;s Premier
                   <span className="text-blue-600"> Concrete Specialists</span>
                 </h1>
                 <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
@@ -760,7 +760,7 @@ export default function ConcretePage() {
                       <Star key={i} className="w-5 h-5 fill-current" />
                     ))}
                   </div>
-                  <p className="text-slate-600 mb-6 leading-relaxed">"{testimonial.text}"</p>
+                  <p className="text-slate-600 mb-6 leading-relaxed">&quot;{testimonial.text}&quot;</p>
                   <div>
                     <p className="font-semibold text-slate-800">{testimonial.name}</p>
                     <p className="text-sm text-slate-500">{testimonial.location}</p>
@@ -823,7 +823,7 @@ export default function ConcretePage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Schedule Your Free Consultation</h2>
               <p className="text-lg md:text-xl text-slate-600">
-                Tell us about your project and schedule a consultation call with our Bay Area concrete specialists. We'll provide a detailed estimate and answer all your questions.
+                Tell us about your project and schedule a consultation call with our Bay Area concrete specialists. We&apos;ll provide a detailed estimate and answer all your questions.
               </p>
             </div>
 
