@@ -33,7 +33,7 @@ export default function SitePreparationPage() {
               </div>
               <Button 
                 className="bg-blue-600 hover:bg-blue-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
               >
                 Schedule Assessment
               </Button>
@@ -58,7 +58,7 @@ export default function SitePreparationPage() {
                 <Button 
                   size="lg" 
                   className="bg-blue-600 hover:bg-blue-700"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   <Map className="w-5 h-5 mr-2" />
                   Schedule Site Assessment
@@ -263,7 +263,7 @@ export default function SitePreparationPage() {
             <Button 
               size="lg" 
               className="bg-white text-amber-600 hover:bg-slate-100"
-              onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+              onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
             >
               <Map className="w-5 h-5 mr-2" />
               Schedule Site Assessment

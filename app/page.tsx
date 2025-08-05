@@ -24,6 +24,7 @@ import {
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import ConsultationForm from "@/components/ConsultationForm"
 
 export default function ConcretePage() {
   const schemaMarkup = {
@@ -481,7 +482,7 @@ export default function ConcretePage() {
       },
       {
         "@type": "ContactPoint",
-        "url": "https://calendar.app.google/dn6u2FrkXbnndxAT8",
+        "url": "https://calendly.com/wadeconcreteco/30min",
         "contactType": "reservations",
         "areaServed": "CA",
         "availableLanguage": "English"
@@ -545,7 +546,7 @@ export default function ConcretePage() {
         <Button
           size="lg"
           className="bg-blue-600 hover:bg-blue-700 text-white px-3 sm:px-6 py-3 sm:py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold text-xs sm:text-sm"
-          onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+          onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
         >
           <FileText className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
           <span className="hidden sm:inline">GET FREE QUOTE</span>
@@ -650,7 +651,7 @@ export default function ConcretePage() {
                 </div>
                 <Button 
                   className="bg-blue-600 hover:bg-blue-700"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   Schedule Quote
                 </Button>
@@ -704,7 +705,7 @@ export default function ConcretePage() {
                 <Button 
                   size="lg" 
                   className="bg-blue-600 hover:bg-blue-700 text-base sm:text-lg px-6 sm:px-8 py-4"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   <FileText className="w-5 h-5 mr-2" />
                   Schedule Free Quote
@@ -746,69 +747,6 @@ export default function ConcretePage() {
         </div>
       </section>
 
-      {/* TESTING - City Pages Access */}
-      <section className="py-8 bg-yellow-400">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold text-slate-800 mb-4">🚀 TEST THE CITY PAGES - CLICK ANY CITY BELOW 🚀</h2>
-            <div className="flex flex-wrap justify-center gap-4">
-              {[
-                "oakland", "berkeley", "fremont", "pleasanton", 
-                "dublin", "livermore", "san-jose", "hayward"
-              ].map((city) => (
-                <Link key={city} href={`/locations/${city}`} className="bg-slate-800 text-white px-6 py-3 rounded-lg hover:bg-slate-700 transition-colors font-bold">
-                  TEST {city.toUpperCase()}
-                </Link>
-              ))}
-            </div>
-            <p className="text-slate-800 mt-4 font-semibold">
-              ↑ These should take you to individual city pages with 1,200+ words of local content
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* City Pages - Prominent Location Access */}
-      <section className="py-16 bg-blue-600">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Serving Cities Throughout the Bay Area</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Click any city below to see specialized services, local expertise, and neighborhood-specific solutions.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              { name: "Oakland", slug: "oakland", region: "East Bay", color: "bg-orange-500" },
-              { name: "Berkeley", slug: "berkeley", region: "East Bay", color: "bg-green-500" },
-              { name: "Fremont", slug: "fremont", region: "East Bay", color: "bg-purple-500" },
-              { name: "Pleasanton", slug: "pleasanton", region: "Tri-Valley", color: "bg-pink-500" },
-              { name: "Dublin", slug: "dublin", region: "Tri-Valley", color: "bg-blue-500" },
-              { name: "Livermore", slug: "livermore", region: "Tri-Valley", color: "bg-purple-600" },
-              { name: "San Jose", slug: "san-jose", region: "Peninsula", color: "bg-orange-600" },
-              { name: "Hayward", slug: "hayward", region: "East Bay", color: "bg-red-500" }
-            ].map((city, index) => (
-              <Link key={index} href={`/locations/${city.slug}`} className="group">
-                <div className="bg-white rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                  <div className={`w-12 h-12 ${city.color} rounded-full mx-auto mb-3 flex items-center justify-center`}>
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition-colors">{city.name}</h3>
-                  <p className="text-sm text-slate-500">{city.region}</p>
-                  <div className="mt-3 text-blue-600 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
-                    View Local Services →
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <p className="text-blue-100 text-lg">
-              📍 Each city page includes local expertise, neighborhood specialties, and area-specific concrete solutions
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Services Section */}
       <section className="py-20 bg-white">
@@ -938,7 +876,7 @@ export default function ConcretePage() {
               <Button 
                 size="lg" 
                 className="bg-blue-600 hover:bg-blue-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
               >
                 <MapPin className="w-5 h-5 mr-2" />
                 Schedule Consultation
@@ -958,107 +896,6 @@ export default function ConcretePage() {
         </div>
       </section>
 
-      {/* Service Network - Strategic Internal Linking Hub */}
-      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-800 mb-6">Complete Bay Area Concrete Network</h2>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto">
-              Connecting specialized concrete services across all major Bay Area cities. From <Link href="/services/seismic-retrofitting" className="text-blue-600 hover:text-blue-800 underline font-semibold">seismic retrofitting</Link> in earthquake-prone areas to <Link href="/services/pool-decks-patios" className="text-blue-600 hover:text-blue-800 underline font-semibold">luxury pool decks</Link> in premium neighborhoods.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-3 gap-12 mb-16">
-            {/* Services Column */}
-            <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Specialized Services</h3>
-              <div className="space-y-3">
-                {[
-                  { name: "Seismic Retrofitting", slug: "seismic-retrofitting", popular: "Critical in Oakland & Berkeley" },
-                  { name: "Concrete Driveways", slug: "concrete-driveways", popular: "Popular in Pleasanton & Dublin" },
-                  { name: "Pool Decks & Patios", slug: "pool-decks-patios", popular: "Luxury standard in San Jose" },
-                  { name: "Retaining Walls", slug: "retaining-walls", popular: "Essential in Oakland Hills" },
-                  { name: "Stamped Concrete", slug: "stamped-concrete", popular: "Trending in Livermore" },
-                  { name: "Basement Floors", slug: "basement-floors", popular: "Common in Fremont" },
-                  { name: "Emergency Repair", slug: "emergency-repair", popular: "24/7 throughout Bay Area" }
-                ].map((service, index) => (
-                  <Link key={index} href={`/services/${service.slug}`} className="group block">
-                    <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 group-hover:border-l-4 group-hover:border-blue-500">
-                      <div className="font-semibold text-slate-800 group-hover:text-blue-600 transition-colors">{service.name}</div>
-                      <div className="text-sm text-slate-500 mt-1">{service.popular}</div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Locations Column */}
-            <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Service Areas</h3>
-              <div className="space-y-3">
-                {[
-                  { name: "Oakland", slug: "oakland", specialty: "Seismic & Hillside Experts" },
-                  { name: "Berkeley", slug: "berkeley", specialty: "Historic Preservation" },
-                  { name: "Fremont", slug: "fremont", specialty: "Residential & Commercial" },
-                  { name: "Pleasanton", slug: "pleasanton", specialty: "Luxury Outdoor Living" },
-                  { name: "Dublin", slug: "dublin", specialty: "Family-Focused Design" },
-                  { name: "Livermore", slug: "livermore", specialty: "Wine Country & Rural" },
-                  { name: "San Jose", slug: "san-jose", specialty: "Tech Industry Solutions" },
-                  { name: "Hayward", slug: "hayward", specialty: "Multicultural Communities" }
-                ].map((city, index) => (
-                  <Link key={index} href={`/locations/${city.slug}`} className="group block">
-                    <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 group-hover:border-l-4 group-hover:border-green-500">
-                      <div className="font-semibold text-slate-800 group-hover:text-green-600 transition-colors">{city.name}</div>
-                      <div className="text-sm text-slate-500 mt-1">{city.specialty}</div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Popular Combinations Column */}
-            <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Popular Combinations</h3>
-              <div className="space-y-3">
-                {[
-                  { title: "Oakland Hills Package", services: ["Retaining Walls", "Seismic Retrofitting"], link: "/locations/oakland" },
-                  { title: "Berkeley Historic Home", services: ["Foundation Work", "Preservation"], link: "/locations/berkeley" },
-                  { title: "Pleasanton Luxury Outdoor", services: ["Pool Decks", "Outdoor Kitchens"], link: "/locations/pleasanton" },
-                  { title: "Dublin Family Living", services: ["Driveways", "Patios"], link: "/locations/dublin" },
-                  { title: "San Jose Tech Campus", services: ["Commercial", "Parking Areas"], link: "/locations/san-jose" },
-                  { title: "Livermore Wine Country", services: ["Agricultural", "Decorative"], link: "/locations/livermore" },
-                  { title: "Fremont Complete Home", services: ["Multiple Services", "Full Property"], link: "/locations/fremont" }
-                ].map((combo, index) => (
-                  <Link key={index} href={combo.link} className="group block">
-                    <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 group-hover:border-l-4 group-hover:border-purple-500">
-                      <div className="font-semibold text-slate-800 group-hover:text-purple-600 transition-colors">{combo.title}</div>
-                      <div className="text-sm text-slate-500 mt-1">{combo.services.join(" + ")}</div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="bg-white p-8 rounded-2xl shadow-lg max-w-2xl mx-auto">
-              <h4 className="text-2xl font-bold text-slate-800 mb-4">Strategic Service Network</h4>
-              <p className="text-slate-600 mb-6">
-                Every project connects to our comprehensive network of specialized services and local expertise. From initial <Link href="/services/site-preparation" className="text-blue-600 hover:text-blue-800 underline">site preparation</Link> to final <Link href="/services/stamped-concrete" className="text-blue-600 hover:text-blue-800 underline">decorative finishes</Link>, we coordinate all aspects of concrete construction across the Bay Area.
-              </p>
-              <Button 
-                size="lg" 
-                className="bg-blue-600 hover:bg-blue-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
-              >
-                <MapPin className="w-5 h-5 mr-2" />
-                Explore Your Options
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Form */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -1070,87 +907,7 @@ export default function ConcretePage() {
               </p>
             </div>
 
-            <Card className="border-0 shadow-xl">
-              <CardContent className="p-8">
-                <form className="space-y-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-semibold text-slate-700 mb-2">Full Name *</label>
-                      <Input placeholder="Enter your full name" className="h-12" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-slate-700 mb-2">Phone Number *</label>
-                      <Input placeholder="(555) 123-4567" className="h-12" />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-2">Email Address *</label>
-                    <Input type="email" placeholder="your.email@example.com" className="h-12" />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-2">Project Type *</label>
-                    <Select>
-                      <SelectTrigger className="h-12">
-                        <SelectValue placeholder="Select your project type" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="driveway">Residential Driveway/RV Pad</SelectItem>
-                        <SelectItem value="patio">Patio & Outdoor Kitchen</SelectItem>
-                        <SelectItem value="pool-deck">Pool Deck</SelectItem>
-                        <SelectItem value="stamped">Decorative/Stamped Concrete</SelectItem>
-                        <SelectItem value="retaining">Retaining Wall/Steps</SelectItem>
-                        <SelectItem value="foundation">Foundation/Seismic Work</SelectItem>
-                        <SelectItem value="pads">Concrete Pads (AC/Generator)</SelectItem>
-                        <SelectItem value="excavation">Site Preparation/Excavation</SelectItem>
-                        <SelectItem value="commercial">Commercial/ADA Project</SelectItem>
-                        <SelectItem value="repair">Emergency Repair</SelectItem>
-                        <SelectItem value="other">Other</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-2">Project Description</label>
-                    <Textarea
-                      placeholder="Please describe your project, including size, timeline, and any specific requirements..."
-                      className="min-h-32"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-2">Preferred Contact Method</label>
-                    <Select>
-                      <SelectTrigger className="h-12">
-                        <SelectValue placeholder="How would you like us to contact you?" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="phone">Phone Call</SelectItem>
-                        <SelectItem value="text">Text Message</SelectItem>
-                        <SelectItem value="email">Email</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  <div className="grid grid-cols-1 gap-4">
-                    <Button 
-                      size="lg" 
-                      className="bg-blue-600 hover:bg-blue-700 text-lg py-4 w-full"
-                      onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
-                    >
-                      <FileText className="w-5 h-5 mr-2" />
-                      Schedule Free Quote Call
-                    </Button>
-                    <div className="text-center">
-                      <p className="text-slate-500 text-sm">
-                        Or call us directly at <a href="tel:925-503-3200" className="text-blue-600 font-semibold">(925) 503-3200</a>
-                      </p>
-                    </div>
-                  </div>
-                </form>
-              </CardContent>
-            </Card>
+<ConsultationForm />
           </div>
         </div>
       </section>

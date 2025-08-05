@@ -36,7 +36,7 @@ export default function SeismicSafetyGuidePage() {
               </div>
               <Button 
                 className="bg-red-600 hover:bg-red-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
               >
                 Schedule Assessment
               </Button>
@@ -65,7 +65,7 @@ export default function SeismicSafetyGuidePage() {
                 <Button 
                   size="lg" 
                   className="bg-red-600 hover:bg-red-700"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   <Shield className="w-5 h-5 mr-2" />
                   Get Seismic Assessment
@@ -476,7 +476,7 @@ export default function SeismicSafetyGuidePage() {
             <Button 
               size="lg" 
               className="bg-white text-red-600 hover:bg-slate-100"
-              onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+              onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
             >
               <Shield className="w-5 h-5 mr-2" />
               Schedule Seismic Assessment

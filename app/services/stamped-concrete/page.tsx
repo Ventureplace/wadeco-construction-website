@@ -27,7 +27,7 @@ export default function StampedConcretePage() {
               </div>
               <Button 
                 className="bg-blue-600 hover:bg-blue-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
               >
                 Schedule Quote
               </Button>
@@ -52,7 +52,7 @@ export default function StampedConcretePage() {
                 <Button 
                   size="lg" 
                   className="bg-blue-600 hover:bg-blue-700"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   <FileText className="w-5 h-5 mr-2" />
                   Get Free Estimate
@@ -173,7 +173,7 @@ export default function StampedConcretePage() {
             <Button 
               size="lg" 
               className="bg-white text-blue-600 hover:bg-slate-100"
-              onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+              onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
             >
               <FileText className="w-5 h-5 mr-2" />
               Schedule Free Consultation

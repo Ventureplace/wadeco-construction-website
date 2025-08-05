@@ -33,7 +33,7 @@ export default function SpecializedServicesPage() {
               </div>
               <Button 
                 className="bg-red-600 hover:bg-red-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
               >
                 Emergency Service
               </Button>
@@ -62,7 +62,7 @@ export default function SpecializedServicesPage() {
                 <Button 
                   size="lg" 
                   className="bg-red-600 hover:bg-red-700"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   <AlertTriangle className="w-5 h-5 mr-2" />
                   Emergency Service
@@ -275,7 +275,7 @@ export default function SpecializedServicesPage() {
             <Button 
               size="lg" 
               className="bg-white text-red-600 hover:bg-slate-100"
-              onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+              onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
             >
               <Shield className="w-5 h-5 mr-2" />
               Schedule Consultation

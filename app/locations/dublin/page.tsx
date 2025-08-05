@@ -34,7 +34,7 @@ export default function DublinConcretePage() {
               </div>
               <Button 
                 className="bg-blue-600 hover:bg-blue-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
               >
                 Get Dublin Quote
               </Button>
@@ -63,7 +63,7 @@ export default function DublinConcretePage() {
                 <Button 
                   size="lg" 
                   className="bg-blue-600 hover:bg-blue-700"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   <Calendar className="w-5 h-5 mr-2" />
                   Free Dublin Estimate
@@ -347,7 +347,7 @@ export default function DublinConcretePage() {
             <Button 
               size="lg" 
               className="bg-white text-blue-600 hover:bg-slate-100"
-              onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+              onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
             >
               <Calendar className="w-5 h-5 mr-2" />
               Free Dublin Estimate

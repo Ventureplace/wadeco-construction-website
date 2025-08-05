@@ -33,7 +33,7 @@ export default function PleasantonConcretePage() {
               </div>
               <Button 
                 className="bg-green-600 hover:bg-green-700"
-                onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
               >
                 Get Pleasanton Quote
               </Button>
@@ -62,7 +62,7 @@ export default function PleasantonConcretePage() {
                 <Button 
                   size="lg" 
                   className="bg-green-600 hover:bg-green-700"
-                  onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+                  onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
                 >
                   <Calendar className="w-5 h-5 mr-2" />
                   Free Pleasanton Estimate
@@ -346,7 +346,7 @@ export default function PleasantonConcretePage() {
             <Button 
               size="lg" 
               className="bg-white text-green-600 hover:bg-slate-100"
-              onClick={() => window.open('https://calendar.app.google/dn6u2FrkXbnndxAT8', '_blank')}
+              onClick={() => window.open('https://calendly.com/wadeconcreteco/30min', '_blank')}
             >
               <Calendar className="w-5 h-5 mr-2" />
               Free Pleasanton Estimate
