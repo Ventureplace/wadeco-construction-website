@@ -8,13 +8,6 @@ import {
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import type { Metadata } from "next"
-
-export const metadata: Metadata = {
-  title: "Stamped Concrete Near Me | Wade & Co Construction | Bay Area Specialists",
-  description: "Professional stamped concrete contractors near me in Bay Area. Decorative concrete patios, driveways, pool decks near you. Serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, San Jose. Free estimates.",
-  keywords: "stamped concrete near me, decorative concrete near me, concrete patio near me, stamped concrete contractors near me, Bay Area stamped concrete, concrete contractors near me",
-}
 
 export default function StampedConcretePage() {
   return (
