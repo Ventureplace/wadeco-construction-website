@@ -1,13 +1,6 @@
 "use client"
 
-import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
-
-export const metadata: Metadata = {
-  title: "Pool Decks & Patios Near Me | Wade & Co Construction | Bay Area Specialists",
-  description: "Professional pool deck and patio contractors near me in Bay Area. Concrete patios, pool decks, outdoor kitchens near you. Serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, San Jose. Free estimates.",
-  keywords: "pool decks near me, concrete patios near me, outdoor kitchen near me, patio contractors near me, concrete contractors near me, Bay Area pool decks",
-}
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 

@@ -1,13 +1,6 @@
 "use client"
 
-import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
-
-export const metadata: Metadata = {
-  title: "Seismic Retrofitting Near Me | Wade & Co Construction | Bay Area Specialists",
-  description: "Professional seismic retrofitting contractors near me in Bay Area. Foundation anchoring, soft story retrofitting, earthquake safety near you. Serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, San Jose. Free estimates.",
-  keywords: "seismic retrofitting near me, earthquake retrofitting near me, foundation anchoring near me, soft story retrofitting near me, concrete contractors near me, Bay Area seismic retrofitting",
-}
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 

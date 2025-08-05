@@ -1,13 +1,6 @@
 "use client"
 
-import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
-
-export const metadata: Metadata = {
-  title: "Retaining Walls Near Me | Wade & Co Construction | Bay Area Specialists",
-  description: "Professional retaining wall contractors near me in Bay Area. Concrete retaining walls, hillside stabilization, landscape walls near you. Serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, San Jose. Free estimates.",
-  keywords: "retaining walls near me, retaining wall contractors near me, hillside stabilization near me, concrete contractors near me, Bay Area retaining walls",
-}
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
