@@ -69,6 +69,17 @@ export async function POST(request: NextRequest) {
   }
 }
 
+interface CalendarEventData {
+  fullName: string
+  phone: string
+  email: string
+  projectType: string
+  projectDescription?: string
+  preferredContact?: string
+  preferredDate?: string
+  preferredTime?: string
+}
+
 function createGoogleCalendarEvent({
   fullName,
   phone,
@@ -78,7 +89,7 @@ function createGoogleCalendarEvent({
   preferredContact,
   preferredDate,
   preferredTime
-}: any) {
+}: CalendarEventData) {
   // Calculate consultation date (default to next business day if no preference)
   const consultationDate = preferredDate ? new Date(preferredDate) : getNextBusinessDay()
   const startTime = preferredTime || '10:00'
@@ -130,7 +141,7 @@ function getNextBusinessDay(): Date {
   return tomorrow
 }
 
-async function sendNotificationEmail(data: any) {
+async function sendNotificationEmail(data: CalendarEventData) {
   // For now, we'll use a simple approach
   // In production, you'd integrate with SendGrid, Mailgun, or similar
   console.log('New consultation request:', data)
@@ -150,24 +161,18 @@ async function sendNotificationEmail(data: any) {
   */
 }
 
-async function sendCustomerConfirmation(data: any) {
+interface CustomerConfirmationData {
+  customerEmail: string
+  customerName: string
+  projectType: string
+  calendarEventUrl: string
+}
+
+async function sendCustomerConfirmation(data: CustomerConfirmationData) {
   // Customer confirmation email
   console.log('Sending confirmation to:', data.customerEmail)
   
   // You can add email service integration here
 }
 
-function generateNotificationEmail(data: any): string {
-  return `
-    <h2>New Consultation Request</h2>
-    <p><strong>Customer:</strong> ${data.fullName}</p>
-    <p><strong>Phone:</strong> ${data.phone}</p>
-    <p><strong>Email:</strong> ${data.email}</p>
-    <p><strong>Project Type:</strong> ${data.projectType}</p>
-    <p><strong>Preferred Contact:</strong> ${data.preferredContact}</p>
-    <p><strong>Description:</strong></p>
-    <p>${data.projectDescription || 'No description provided'}</p>
-    <hr>
-    <p>Please follow up within 24 hours to schedule the consultation call.</p>
-  `
-}
+// Removed unused function generateNotificationEmail
