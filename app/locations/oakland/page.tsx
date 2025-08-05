@@ -1,6 +1,13 @@
 "use client"
 
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
+
+export const metadata: Metadata = {
+  title: "Concrete Contractors Near Me Oakland | Wade & Co Construction | East Bay",
+  description: "Top-rated concrete contractors near me in Oakland CA. Stamped concrete, driveways, patios, retaining walls, seismic retrofitting near you in Oakland. Serving North Oakland, West Oakland, East Oakland, Oakland Hills. Free estimates.",
+  keywords: "concrete contractors near me Oakland, stamped concrete Oakland, retaining walls Oakland, concrete driveways Oakland, seismic retrofitting Oakland, concrete contractors near me",
+}
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 

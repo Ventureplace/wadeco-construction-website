@@ -1,6 +1,13 @@
 "use client"
 
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
+
+export const metadata: Metadata = {
+  title: "Concrete Contractors Near Me Berkeley | Wade & Co Construction | Historic Preservation",
+  description: "Top-rated concrete contractors near me in Berkeley CA. Historic preservation, seismic retrofitting, sustainable concrete near you in Berkeley. Serving North Berkeley, South Berkeley, UC Campus, Berkeley Hills. Free estimates.",
+  keywords: "concrete contractors near me Berkeley, historic preservation Berkeley, seismic retrofitting Berkeley, sustainable concrete Berkeley, concrete contractors near me",
+}
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 

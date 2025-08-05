@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wade & Co. Construction - Bay Area Concrete Contractors | East Bay, Tri-Valley, Peninsula",
-  description: "Professional concrete contractor serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, San Jose. Stamped concrete, driveways, patios, pool decks, retaining walls, seismic retrofitting, RV pads, outdoor kitchens. 25+ years experience. Free estimates.",
-  keywords: "concrete contractor Oakland, stamped concrete Berkeley, retaining walls Fremont, decorative concrete Pleasanton, concrete patio Dublin, pool deck Livermore, seismic retrofitting San Jose, RV pads East Bay, outdoor kitchen concrete Tri-Valley, basement floors Peninsula, concrete steps, sidewalks, ADA compliance, emergency concrete repair",
+  title: "Concrete Contractors Near Me | Wade & Co Construction | Bay Area Specialists",
+  description: "Top-rated concrete contractors near me in Bay Area. Serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, San Jose. Stamped concrete, driveways, patios, pool decks, retaining walls near you. 25+ years experience. Free estimates.",
+  keywords: "concrete contractors near me, stamped concrete near me, concrete company near me, retaining walls near me, decorative concrete near me, concrete patio near me, pool deck contractors near me, seismic retrofitting near me, RV pads near me, outdoor kitchen concrete near me, basement floors near me, concrete steps near me, sidewalks near me, ADA compliance near me, emergency concrete repair near me, Bay Area concrete contractors",
   openGraph: {
-    title: "Wade & Co. Construction - Bay Area Concrete Specialists",
-    description: "Licensed concrete contractors serving East Bay, Tri-Valley & Peninsula. Stamped concrete, driveways, patios, retaining walls, seismic retrofitting, RV pads, outdoor kitchens. 25+ years experience.",
+    title: "Concrete Contractors Near Me | Wade & Co Construction",
+    description: "Top-rated concrete contractors near me in Bay Area. Licensed specialists serving East Bay, Tri-Valley & Peninsula. Stamped concrete, driveways, patios, retaining walls near you. 25+ years experience.",
     type: "website",
     locale: "en_US",
   },

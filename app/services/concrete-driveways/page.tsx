@@ -1,6 +1,13 @@
 "use client"
 
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
+
+export const metadata: Metadata = {
+  title: "Concrete Driveways Near Me | Wade & Co Construction | Bay Area Specialists",
+  description: "Professional concrete driveway contractors near me in Bay Area. RV pads, boat ramps, residential driveways near you. Serving Oakland, Berkeley, Fremont, Pleasanton, Dublin, Livermore, San Jose. Free estimates.",
+  keywords: "concrete driveways near me, driveway contractors near me, RV pads near me, concrete contractors near me, Bay Area concrete driveways",
+}
 import { Card, CardContent } from "@/components/ui/card"
 import { 
   Phone, 
