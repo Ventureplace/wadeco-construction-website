@@ -17,7 +17,7 @@ export default function ConsultationForm() {
         
         <div className="text-center mt-6">
           <p className="text-slate-500 text-sm">
-            Or call us directly at <a href="tel:925-503-3200" className="text-blue-600 font-semibold">(925) 503-3200</a>
+            Or call us directly at <a href="tel:510-435-8950" className="text-blue-600 font-semibold">(510) 435-8950</a>
           </p>
         </div>
       </CardContent>
